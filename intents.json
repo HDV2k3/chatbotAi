@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Xin chào", "Chào bạn", "Bạn khỏe không?", "Có ai ở đây không?", "Xin chào", "Chúc bạn một ngày tốt lành"],
+      "responses": ["Chào bạn :-)", "Xin chào, cảm ơn bạn đã ghé thăm", "Chào bạn, tôi có thể giúp gì cho bạn?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Tạm biệt", "Hẹn gặp lại", "Chào tạm biệt"],
+      "responses": ["Hẹn gặp lại, cảm ơn bạn đã ghé thăm", "Chúc bạn một ngày tốt lành", "Tạm biệt! Hãy quay lại sớm nhé."]
+    },
+    {
+      "tag": "price",
+      "patterns": ["Giá phòng trọ là bao nhiêu?", "Giá nhà là bao nhiêu?", "Chi phí thuê phòng như thế nào?"],
+      "responses": ["Giá phòng trọ từ 2 triệu đến 5 triệu đồng tùy theo vị trí.", "Chúng tôi có các loại phòng từ 1.5 triệu đến 3 triệu đồng."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Vị trí của bạn ở đâu?", "Bạn có phòng trọ ở đâu?", "Cho tôi biết vị trí của bạn."],
+      "responses": ["Chúng tôi có phòng trọ ở trung tâm thành phố.", "Vị trí của chúng tôi gần đại học và các tiện ích."]
+    },
+    {
+      "tag": "advice",
+      "patterns": ["Tôi cần tư vấn về phòng trọ.", "Bạn có thể tư vấn cho tôi không?", "Cho tôi biết về các tùy chọn phòng trọ."],
+      "responses": ["Chúng tôi có nhiều tùy chọn phù hợp với nhu cầu của bạn.", "Hãy cho tôi biết yêu cầu của bạn, tôi sẽ tư vấn."]
+    }
+  ]
+}
