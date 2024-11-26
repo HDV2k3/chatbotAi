@@ -1,11 +1,23 @@
-FROM python:3.12.3-slim
+# Khởi tạo image Python 3.12.3
+FROM python:3.12.3
 
+# Cập nhật và cài đặt các gói cần thiết
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Sao chép file requirements.txt vào container
+COPY requirements.txt /app/requirements.txt
+
+# Cài đặt các thư viện Python từ file requirements.txt
+RUN pip install --no-cache-dir -r /app/requirements.txt
+
+# Thiết lập thư mục làm việc
 WORKDIR /app
 
-COPY requirements.txt .
-
-RUN pip install --no-cache-dir -r requirements.txt
-
-COPY . .
+# Sao chép toàn bộ ứng dụng vào container
+COPY . /app
 EXPOSE 5000
+# Chạy ứng dụng Flask (hoặc lệnh khởi động của bạn)
 CMD ["python", "automation.py"]
