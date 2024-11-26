@@ -7,14 +7,18 @@ RUN apt-get update && apt-get install -y \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
-# Sao chép file requirements.txt vào container
-COPY requirements.txt /app/requirements.txt
 
 # Cài đặt PyTorch với CPU
-RUN install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-
-# Cài đặt các thư viện Python từ file requirements.txt
-RUN pip install --no-cache-dir -r /app/requirements.txt
+RUN pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+RUN pip install Flask
+RUN pip install Flask-Cors
+RUN pip install numpy
+RUN pip install nltk
+RUN pip install schedule
+RUN pip install importlib-metadata
+RUN pip install requests
+RUN pip install urllib3
+RUN pip install six
 
 # Thiết lập thư mục làm việc
 WORKDIR /app
