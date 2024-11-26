@@ -1,8 +1,12 @@
 Flask
 Flask-Cors
-torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+torch==2.1.0+cpu
+torchvision==0.15.0+cpu
+torchaudio==2.1.0+cpu
 numpy
 nltk
 schedule
 importlib-metadata
 requests
+urllib3
+six
