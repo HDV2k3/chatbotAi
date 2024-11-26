@@ -6,22 +6,22 @@
                 "Có những loại phòng nào?"
             ],
             "responses": [
+                "Phòng trọ rộng rãi",
+                "Căn hộ mini hiện đại",
+                "Phòng tiện nghi gần chợ",
+                "Phòng trọ sinh viên tiện lợi",
+                "Phòng studio tiện nghi",
+                "Phòng tiện nghi cơ bản",
+                "Phòng trọ hiện đại",
                 "Phòng trọ tiện nghi",
+                "Phòng trọ sinh viên",
+                "Phòng trọ tiện nghi hiện đại",
+                "Căn hộ dịch vụ sang trọng",
+                "Căn hộ mini view đẹp",
                 "Phòng trọ sinh viên tiện nghi",
                 "Phòng mới tiện nghi",
                 "Studio mới xây",
-                "Phòng trọ tiện nghi hiện đại",
-                "test",
-                "Phòng trọ sinh viên tiện lợi",
-                "Căn hộ mini hiện đại",
-                "Phòng trọ sinh viên",
-                "Phòng tiện nghi cơ bản",
-                "Phòng trọ rộng rãi",
-                "Phòng trọ hiện đại",
-                "Căn hộ mini view đẹp",
-                "Phòng studio tiện nghi",
-                "Phòng tiện nghi gần chợ",
-                "Căn hộ dịch vụ sang trọng"
+                "test"
             ]
         },
         {
@@ -57,9 +57,9 @@
                 "Phòng trọ tiện nghi địa chỉ ở đâu?"
             ],
             "responses": [
+                "Phòng trọ tiện nghi - Địa chỉ: Quận 7",
                 "Phòng trọ tiện nghi - Địa chỉ: Thủ Đức",
-                "Phòng trọ tiện nghi - Địa chỉ: Bình Thạnh",
-                "Phòng trọ tiện nghi - Địa chỉ: Quận 7"
+                "Phòng trọ tiện nghi - Địa chỉ: Bình Thạnh"
             ]
         },
         {
@@ -77,8 +77,8 @@
                 "Phòng trọ sinh viên địa chỉ ở đâu?"
             ],
             "responses": [
-                "Phòng trọ sinh viên - Địa chỉ: Quận 10",
-                "Phòng trọ sinh viên - Địa chỉ: Quận 7"
+                "Phòng trọ sinh viên - Địa chỉ: Quận 7",
+                "Phòng trọ sinh viên - Địa chỉ: Quận 10"
             ]
         },
         {
@@ -96,8 +96,8 @@
                 "Phòng trọ sinh viên tiện lợi địa chỉ ở đâu?"
             ],
             "responses": [
-                "Phòng trọ sinh viên tiện lợi - Địa chỉ: Quận 10",
-                "Phòng trọ sinh viên tiện lợi - Địa chỉ: Quận 1"
+                "Phòng trọ sinh viên tiện lợi - Địa chỉ: Quận 1",
+                "Phòng trọ sinh viên tiện lợi - Địa chỉ: Quận 10"
             ]
         },
         {

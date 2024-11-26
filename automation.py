@@ -22,7 +22,7 @@ def run_auto_update():
             logging.info("Đang chạy auto_update_intents...")
             auto_update = importlib.import_module('auto_update_intents')
             auto_update.main()  # Giả sử có hàm main() trong file
-            time.sleep(100)  # Đợi 5 phút trước khi chạy lại
+            time.sleep(3500)  # Đợi 5 phút trước khi chạy lại
         except Exception as e:
             logging.error(f"Lỗi trong auto_update_intents: {str(e)}")
             time.sleep(60)  # Đợi 1 phút nếu có lỗi
@@ -34,7 +34,7 @@ def run_training():
             logging.info("Đang chạy training...")
             train = importlib.import_module('train')
             train.main()  # Giả sử có hàm main() trong file
-            time.sleep(200)  # Đợi 10 phút trước khi train lại
+            time.sleep(3600)  # Đợi 10 phút trước khi train lại
         except Exception as e:
             logging.error(f"Lỗi trong training: {str(e)}")
             time.sleep(60)

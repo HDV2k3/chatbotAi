@@ -30,8 +30,8 @@ def get_data_from_api(url):
 def update_intents_with_rooms():
     # Định nghĩa các API để lấy dữ liệu
     api_urls = [
-        "http://localhost:8080/marketing/train/roomInfoName",
-        "http://localhost:8080/marketing/train/address",
+        "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/roomInfoName",
+        "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/address",
         # Thêm các API khác vào đây
     ]
 
