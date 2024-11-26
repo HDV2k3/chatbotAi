@@ -16,23 +16,23 @@ jobs:
         run: echo "SITE_URL=${{ secrets.SITE_URL }}" >> .env
 
       - name: Build docker image
-        run: docker build -t devhuynh2003/chatbot-app .
+        run: docker build -t devhuynh2003/chatbot-app-ai .
 
       - name: Login to Docker Hub
         run: echo "${{ secrets.DOCKER_ACCESS_TOKEN }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
       - name: Push image to Docker Hub
-        run: docker push devhuynh2003/chatbot-app:latest
+        run: docker push devhuynh2003/chatbot-app-ai:latest
 
   deploy:
     needs: build
     runs-on: self-hosted
     steps:
       - name: Pull image from Docker Hub
-        run: docker pull devhuynh2003/chatbot-app:latest
+        run: docker pull devhuynh2003/chatbot-app-ai:latest
 
       - name: Delete old container
-        run: docker rm -f chatbot-app-container || true
+        run: docker rm -f chatbot-app-ai-container || true
 
       - name: Run docker container
-        run: docker run -d -p 5000:5000 --name chatbot-app-container devhuynh2003/chatbot-app:latest
+        run: docker run -d -p 5000:5000 --name chatbot-app-ai-container devhuynh2003/chatbot-app-ai:latest
