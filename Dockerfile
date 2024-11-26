@@ -4,12 +4,6 @@ FROM python:latest
 # Cài đặt môi trường làm việc trong container
 WORKDIR /app
 
-# Cài đặt các thư viện cần thiết cho việc xây dựng ứng dụng (như build-essential, libpq-dev nếu cần)
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    libpq-dev \
-    && rm -rf /var/lib/apt/lists/*
-
 # Sao chép file requirements.txt vào container
 COPY requirements.txt .
 
