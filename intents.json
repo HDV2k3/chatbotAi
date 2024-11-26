@@ -1,29 +1,176 @@
 {
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": ["Xin chào", "Chào bạn", "Bạn khỏe không?", "Có ai ở đây không?", "Xin chào", "Chúc bạn một ngày tốt lành"],
-      "responses": ["Chào bạn :-)", "Xin chào, cảm ơn bạn đã ghé thăm", "Chào bạn, tôi có thể giúp gì cho bạn?"]
-    },
-    {
-      "tag": "goodbye",
-      "patterns": ["Tạm biệt", "Hẹn gặp lại", "Chào tạm biệt"],
-      "responses": ["Hẹn gặp lại, cảm ơn bạn đã ghé thăm", "Chúc bạn một ngày tốt lành", "Tạm biệt! Hãy quay lại sớm nhé."]
-    },
-    {
-      "tag": "price",
-      "patterns": ["Giá phòng trọ là bao nhiêu?", "Giá nhà là bao nhiêu?", "Chi phí thuê phòng như thế nào?"],
-      "responses": ["Giá phòng trọ từ 2 triệu đến 5 triệu đồng tùy theo vị trí.", "Chúng tôi có các loại phòng từ 1.5 triệu đến 3 triệu đồng."]
-    },
-    {
-      "tag": "location",
-      "patterns": ["Vị trí của bạn ở đâu?", "Bạn có phòng trọ ở đâu?", "Cho tôi biết vị trí của bạn."],
-      "responses": ["Chúng tôi có phòng trọ ở trung tâm thành phố.", "Vị trí của chúng tôi gần đại học và các tiện ích."]
-    },
-    {
-      "tag": "advice",
-      "patterns": ["Tôi cần tư vấn về phòng trọ.", "Bạn có thể tư vấn cho tôi không?", "Cho tôi biết về các tùy chọn phòng trọ."],
-      "responses": ["Chúng tôi có nhiều tùy chọn phù hợp với nhu cầu của bạn.", "Hãy cho tôi biết yêu cầu của bạn, tôi sẽ tư vấn."]
-    }
-  ]
+    "intents": [
+        {
+            "tag": "phòng ",
+            "patterns": [
+                "Có những loại phòng nào?"
+            ],
+            "responses": [
+                "Phòng trọ tiện nghi",
+                "Phòng trọ sinh viên tiện nghi",
+                "Phòng mới tiện nghi",
+                "Studio mới xây",
+                "Phòng trọ tiện nghi hiện đại",
+                "test",
+                "Phòng trọ sinh viên tiện lợi",
+                "Căn hộ mini hiện đại",
+                "Phòng trọ sinh viên",
+                "Phòng tiện nghi cơ bản",
+                "Phòng trọ rộng rãi",
+                "Phòng trọ hiện đại",
+                "Căn hộ mini view đẹp",
+                "Phòng studio tiện nghi",
+                "Phòng tiện nghi gần chợ",
+                "Căn hộ dịch vụ sang trọng"
+            ]
+        },
+        {
+            "tag": "Studio mới xây địa chỉ ở đâu",
+            "patterns": [
+                "Studio mới xây địa chỉ ở đâu?"
+            ],
+            "responses": [
+                "Studio mới xây - Địa chỉ: Quận 1"
+            ]
+        },
+        {
+            "tag": "Phòng studio tiện nghi địa chỉ ở đâu",
+            "patterns": [
+                "Phòng studio tiện nghi địa chỉ ở đâu?"
+            ],
+            "responses": [
+                "Phòng studio tiện nghi - Địa chỉ: Phú Nhuận"
+            ]
+        },
+        {
+            "tag": "Căn hộ mini view đẹp địa chỉ ở đâu",
+            "patterns": [
+                "Căn hộ mini view đẹp địa chỉ ở đâu?"
+            ],
+            "responses": [
+                "Căn hộ mini view đẹp - Địa chỉ: Quận 3"
+            ]
+        },
+        {
+            "tag": "Phòng trọ tiện nghi địa chỉ ở đâu",
+            "patterns": [
+                "Phòng trọ tiện nghi địa chỉ ở đâu?"
+            ],
+            "responses": [
+                "Phòng trọ tiện nghi - Địa chỉ: Thủ Đức",
+                "Phòng trọ tiện nghi - Địa chỉ: Bình Thạnh",
+                "Phòng trọ tiện nghi - Địa chỉ: Quận 7"
+            ]
+        },
+        {
+            "tag": "Căn hộ dịch vụ sang trọng địa chỉ ở đâu",
+            "patterns": [
+                "Căn hộ dịch vụ sang trọng địa chỉ ở đâu?"
+            ],
+            "responses": [
+                "Căn hộ dịch vụ sang trọng - Địa chỉ: Tân Bình"
+            ]
+        },
+        {
+            "tag": "Phòng trọ sinh viên địa chỉ ở đâu",
+            "patterns": [
+                "Phòng trọ sinh viên địa chỉ ở đâu?"
+            ],
+            "responses": [
+                "Phòng trọ sinh viên - Địa chỉ: Quận 10",
+                "Phòng trọ sinh viên - Địa chỉ: Quận 7"
+            ]
+        },
+        {
+            "tag": "Căn hộ mini hiện đại địa chỉ ở đâu",
+            "patterns": [
+                "Căn hộ mini hiện đại địa chỉ ở đâu?"
+            ],
+            "responses": [
+                "Căn hộ mini hiện đại - Địa chỉ: Phú Nhuận"
+            ]
+        },
+        {
+            "tag": "Phòng trọ sinh viên tiện lợi địa chỉ ở đâu",
+            "patterns": [
+                "Phòng trọ sinh viên tiện lợi địa chỉ ở đâu?"
+            ],
+            "responses": [
+                "Phòng trọ sinh viên tiện lợi - Địa chỉ: Quận 10",
+                "Phòng trọ sinh viên tiện lợi - Địa chỉ: Quận 1"
+            ]
+        },
+        {
+            "tag": "Phòng tiện nghi gần chợ địa chỉ ở đâu",
+            "patterns": [
+                "Phòng tiện nghi gần chợ địa chỉ ở đâu?"
+            ],
+            "responses": [
+                "Phòng tiện nghi gần chợ - Địa chỉ: Quận 2"
+            ]
+        },
+        {
+            "tag": "Phòng trọ hiện đại địa chỉ ở đâu",
+            "patterns": [
+                "Phòng trọ hiện đại địa chỉ ở đâu?"
+            ],
+            "responses": [
+                "Phòng trọ hiện đại - Địa chỉ: Quận 3"
+            ]
+        },
+        {
+            "tag": "Phòng trọ sinh viên tiện nghi địa chỉ ở đâu",
+            "patterns": [
+                "Phòng trọ sinh viên tiện nghi địa chỉ ở đâu?"
+            ],
+            "responses": [
+                "Phòng trọ sinh viên tiện nghi - Địa chỉ: Quận 4"
+            ]
+        },
+        {
+            "tag": "Phòng trọ tiện nghi hiện đại địa chỉ ở đâu",
+            "patterns": [
+                "Phòng trọ tiện nghi hiện đại địa chỉ ở đâu?"
+            ],
+            "responses": [
+                "Phòng trọ tiện nghi hiện đại - Địa chỉ: Quận 5"
+            ]
+        },
+        {
+            "tag": "Phòng trọ rộng rãi địa chỉ ở đâu",
+            "patterns": [
+                "Phòng trọ rộng rãi địa chỉ ở đâu?"
+            ],
+            "responses": [
+                "Phòng trọ rộng rãi - Địa chỉ: Quận 6"
+            ]
+        },
+        {
+            "tag": "Phòng tiện nghi cơ bản địa chỉ ở đâu",
+            "patterns": [
+                "Phòng tiện nghi cơ bản địa chỉ ở đâu?"
+            ],
+            "responses": [
+                "Phòng tiện nghi cơ bản - Địa chỉ: Quận 8"
+            ]
+        },
+        {
+            "tag": "Phòng mới tiện nghi địa chỉ ở đâu",
+            "patterns": [
+                "Phòng mới tiện nghi địa chỉ ở đâu?"
+            ],
+            "responses": [
+                "Phòng mới tiện nghi - Địa chỉ: Quận 9"
+            ]
+        },
+        {
+            "tag": "test địa chỉ ở đâu",
+            "patterns": [
+                "test địa chỉ ở đâu?"
+            ],
+            "responses": [
+                "test - Địa chỉ: test"
+            ]
+        }
+    ]
 }

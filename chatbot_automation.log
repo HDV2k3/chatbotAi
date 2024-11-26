@@ -1,0 +1,50 @@
+2024-11-26 21:39:39,296 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-26 21:39:39,296 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-26 21:39:39,297 - INFO -  * Restarting with stat
+2024-11-26 21:39:40,732 - WARNING -  * Debugger is active!
+2024-11-26 21:39:40,734 - INFO -  * Debugger PIN: 278-643-150
+2024-11-26 21:40:36,750 - INFO -  * Detected change in 'D:\\chatbot\\train.py', reloading
+2024-11-26 21:40:37,160 - INFO -  * Restarting with stat
+2024-11-26 21:40:38,599 - WARNING -  * Debugger is active!
+2024-11-26 21:40:38,599 - INFO -  * Debugger PIN: 278-643-150
+2024-11-26 21:40:40,705 - INFO -  * Detected change in 'D:\\chatbot\\train.py', reloading
+2024-11-26 21:40:41,098 - INFO -  * Restarting with stat
+2024-11-26 21:40:42,447 - WARNING -  * Debugger is active!
+2024-11-26 21:40:42,455 - INFO -  * Debugger PIN: 278-643-150
+2024-11-26 21:41:18,284 - INFO -  * Detected change in 'D:\\chatbot\\train.py', reloading
+2024-11-26 21:41:18,666 - INFO -  * Restarting with stat
+2024-11-26 21:41:20,046 - WARNING -  * Debugger is active!
+2024-11-26 21:41:20,050 - INFO -  * Debugger PIN: 278-643-150
+2024-11-26 21:41:27,269 - INFO -  * Detected change in 'D:\\chatbot\\train.py', reloading
+2024-11-26 21:41:27,661 - INFO -  * Restarting with stat
+2024-11-26 21:41:29,120 - WARNING -  * Debugger is active!
+2024-11-26 21:41:29,122 - INFO -  * Debugger PIN: 278-643-150
+2024-11-26 21:41:29,771 - INFO - Starting training process...
+2024-11-26 21:41:30,276 - INFO - Training process complete.
+2024-11-26 21:42:48,536 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-26 21:42:48,536 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-26 21:42:48,546 - INFO -  * Restarting with stat
+2024-11-26 21:42:49,222 - INFO - Starting training process...
+2024-11-26 21:42:49,723 - INFO - Training process complete.
+2024-11-26 21:42:49,934 - WARNING -  * Debugger is active!
+2024-11-26 21:42:49,937 - INFO -  * Debugger PIN: 278-643-150
+2024-11-26 21:42:50,556 - INFO - Starting training process...
+2024-11-26 21:42:51,065 - INFO - Training process complete.
+2024-11-26 21:44:52,712 - INFO - Starting update intents process...
+2024-11-26 21:44:53,008 - INFO - update process complete.
+2024-11-26 21:44:53,768 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-26 21:44:53,768 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-26 21:44:53,772 - INFO -  * Restarting with stat
+2024-11-26 21:44:54,188 - INFO - Starting update intents process...
+2024-11-26 21:44:54,467 - INFO - update process complete.
+2024-11-26 21:44:54,564 - INFO - Starting training process...
+2024-11-26 21:44:55,348 - WARNING -  * Debugger is active!
+2024-11-26 21:44:55,352 - INFO -  * Debugger PIN: 278-643-150
+2024-11-26 21:44:56,088 - INFO - Starting training process...
+2024-11-26 21:44:56,379 - INFO - Training process complete.
+2024-11-26 21:44:57,779 - INFO - Training process complete.
+2024-11-26 21:46:06,807 - INFO -  * Detected change in 'D:\\chatbot\\automation.py', reloading
+2024-11-26 21:46:07,251 - INFO -  * Restarting with stat
