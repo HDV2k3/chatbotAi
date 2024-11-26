@@ -10,6 +10,9 @@ RUN apt-get update && apt-get install -y \
 # Sao chép file requirements.txt vào container
 COPY requirements.txt /app/requirements.txt
 
+# Cài đặt PyTorch với CPU
+RUN install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
 # Cài đặt các thư viện Python từ file requirements.txt
 RUN pip install --no-cache-dir -r /app/requirements.txt
 
