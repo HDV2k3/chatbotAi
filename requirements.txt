@@ -1,6 +1,6 @@
 Flask
 Flask-Cors
-torch
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 numpy
 nltk
 schedule
