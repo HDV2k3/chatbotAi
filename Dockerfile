@@ -1,17 +1,25 @@
-# Sử dụng image Python mới nhất (hoặc phiên bản cụ thể bạn cần)
-FROM python:latest
+# Bắt đầu từ image python:3.9-slim
+FROM python:3.12.3
 
-# Cài đặt môi trường làm việc trong container
+# Cập nhật và cài đặt các gói cần thiết
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Cài đặt các thư viện Python cần thiết
+RUN pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+RUN pip install numpy
+RUN pip install nltk
+RUN pip install flask
+RUN pip install flask-cors
+RUN pip install schedule
+RUN pip install importlib-metadata
+# Thiết lập thư mục làm việc
 WORKDIR /app
 
-# Sao chép file requirements.txt vào container
-COPY requirements.txt .
+# Sao chép ứng dụng vào container
+COPY . /app
 
-# Cài đặt tất cả các thư viện Python từ requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Sao chép tất cả các tệp trong thư mục hiện tại vào container
-COPY . .
-
-# Lệnh chạy khi container khởi động
+# Chạy ứng dụng Flask (hoặc lệnh khởi động của bạn)
 CMD ["python", "automation.py"]
