@@ -19,7 +19,7 @@ RUN pip install importlib-metadata
 RUN pip install requests
 RUN pip install urllib3
 RUN pip install six
-
+RUN pip install pymongo
 # Thiết lập thư mục làm việc
 WORKDIR /app
 

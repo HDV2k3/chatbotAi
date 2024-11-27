@@ -1,10 +1,36 @@
 import json
 import requests
-import time
 import os
 import logging
+from chat import get_intents_collection
 # Đường dẫn đến file intents.json
 intents_file = 'intents.json'
+def save_intent_to_mongo(intents_data):
+    """
+    Lưu hoặc cập nhật intents vào MongoDB collection 'intents'.
+    intents_data: Dữ liệu intents cần lưu hoặc cập nhật.
+    """
+    collection = get_intents_collection()  # Lấy collection 'intents'
+
+    for intent in intents_data['intents']:
+        # Kiểm tra nếu document với tag tương ứng đã tồn tại
+        existing_intent = collection.find_one({"tag": intent['tag']})
+
+        if existing_intent:
+            # Nếu tồn tại intent với tag đã có, cập nhật patterns và responses (loại bỏ trùng lặp)
+            updated_patterns = list(set(existing_intent['patterns']).union(intent['patterns']))
+            updated_responses = list(set(existing_intent['responses']).union(intent['responses']))
+
+            # Cập nhật document
+            collection.update_one(
+                {"tag": intent['tag']},  # Tìm document theo tag
+                {"$set": {"patterns": updated_patterns, "responses": updated_responses}}  # Cập nhật nội dung
+            )
+            print(f"Intent with tag '{intent['tag']}' has been updated in MongoDB.")
+        else:
+            # Nếu không tồn tại, thêm mới document
+            collection.insert_one(intent)
+            print(f"New intent with tag '{intent['tag']}' has been added to MongoDB.")
 
 # Hàm gọi API để lấy dữ liệu từ bất kỳ API nào
 def get_data_from_api(url):
@@ -26,7 +52,6 @@ def get_data_from_api(url):
         print(f"Exception when calling API {url}: {e}")
         return []
 
-# Hàm đọc intents.json và thêm dữ liệu mới vào
 def update_intents_with_rooms():
     # Định nghĩa các API để lấy dữ liệu
     api_urls = [
@@ -35,7 +60,7 @@ def update_intents_with_rooms():
         "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/status",
         "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/area",
         "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/infoOwner",
-         "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/utility",
+        "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/utility",
         "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/pricingDetails",
         # Thêm các API khác vào đây
     ]
@@ -84,6 +109,8 @@ def update_intents_with_rooms():
         try:
             with open(intents_file, 'w', encoding='utf-8') as f:
                 json.dump(intents, f, ensure_ascii=False, indent=4)
+                # Chỉ gọi save_intent_to_mongo nếu có thay đổi
+                save_intent_to_mongo(intents)
             print(f"File {intents_file} đã được cập nhật.")
         except Exception as e:
             print(f"Lỗi khi ghi file {intents_file}: {e}")

@@ -3,7 +3,29 @@ import torch
 import requests
 from model import NeuralNet
 from nltk_utils import  tokenize
-import os 
+import os
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
+
+# URI kết nối tới MongoDB Atlas
+uri = "mongodb+srv://DevHuynh2003:DevHuynh2003@cluster0.ueypw.mongodb.net/intents?retryWrites=true&w=majority&appName=Cluster0"
+
+# Tạo một client mới và kết nối đến MongoDB Atlas
+client = MongoClient(uri, server_api=ServerApi('1'))
+
+def get_db():
+    """
+    Kết nối đến cơ sở dữ liệu MongoDB và trả về đối tượng cơ sở dữ liệu.
+    """
+    # Kết nối đến database 'intents'
+    db = client.get_database()  # Kết nối đến database đã chỉ định trong URI (không cần phải chỉ định lại tên 'intents' ở đây)
+    return db
+
+# Lấy collection 'intents' từ MongoDB
+def get_intents_collection():
+    db = get_db()  # Lấy database
+    return db['intents']  # Trả về collection 'intents'
+
 # Thiết lập thiết bị (GPU nếu có, nếu không sẽ sử dụng CPU)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -42,35 +64,10 @@ def match_score(pattern, sentence):
     matched_words = [word for word in sentence if word in pattern_words]  # Các từ khớp
     return len(matched_words) / len(pattern_words)  # Tỷ lệ khớp
 
-# # Hàm xử lý phản hồi từ chatbot
-# def get_response(msg):
-#     """
-#     Nhận phản hồi từ chatbot dựa trên câu nhập của người dùng.
-#     Nếu không có intent khớp, gọi API Gemini để xử lý.
-#     """
-#     sentence = tokenize(msg)  # Tách từ của câu nhập
-#     matched_intents = []  # Danh sách intent khớp với điểm số
-
-#     # Duyệt qua các intents để tính điểm khớp
-#     for intent in intents['intents']:
-#         for pattern in intent['patterns']:
-#             score = match_score(pattern, sentence)
-#             if score > 0.5:  # Nếu điểm khớp vượt ngưỡng 0.5
-#                 matched_intents.append((intent, score))
-
-#     # Chọn intent có điểm khớp cao nhất
-#     if matched_intents:
-#         matched_intents = sorted(matched_intents, key=lambda x: x[1], reverse=True)
-#         best_intent = matched_intents[0][0]  # Lấy intent khớp tốt nhất
-#         return sorted(best_intent['responses'], key=lambda x: calculate_relevance(x, msg), reverse=True)
-
-#     # Nếu không tìm thấy intent phù hợp, gọi API Gemini
-#     print("No matching tag or patterns found, calling Gemini API...")
-#     return get_gemini_response(msg)
 def get_response(msg):
     """
     Nhận phản hồi từ chatbot dựa trên câu nhập của người dùng.
-    Nếu không có intent khớp, câu hỏi sẽ được lưu vào tệp JSON để phân tích sau.
+    Nếu không có intent khớp, lưu câu hỏi vào tệp JSON, sau đó gọi API Gemini để xử lý.
     """
     sentence = tokenize(msg)  # Tách từ của câu nhập
     matched_intents = []  # Danh sách intent khớp với điểm số
@@ -86,38 +83,23 @@ def get_response(msg):
     if matched_intents:
         matched_intents = sorted(matched_intents, key=lambda x: x[1], reverse=True)
         best_intent = matched_intents[0][0]  # Lấy intent khớp tốt nhất
+        
+        # Trả về tất cả các responses của intent phù hợp
+        responses = best_intent['responses']
+        # Nối tất cả các phản hồi lại với nhau và thêm câu hỏi bổ sung
+        response_text = "\n".join(responses) + "\n\nBạn còn câu hỏi nào cho tôi không?"
+        return response_text
 
-        # Lấy phản hồi phù hợp nhất và thêm câu hỏi bổ sung
-        response = sorted(
-            best_intent['responses'], 
-            key=lambda x: calculate_relevance(x, msg), 
-            reverse=True
-        )[0]
-        return f"{response}\n\nBạn còn câu hỏi nào muốn hỏi tôi nữa không? Tôi sẵn sàng trả lời những gì tôi biết."
-
-    # Nếu không tìm thấy intent phù hợp, lưu câu hỏi vào tệp JSON
+  
+    gemini_response = get_gemini_response(msg)  # Gọi API Gemini
+      # Nếu không tìm thấy intent phù hợp, lưu câu hỏi và gọi API Gemini
     print("No matching tag or patterns found, saving to unresolved intents...")
+    save_unresolved_intent_to_file(msg,gemini_response)  # Lưu câu hỏi chưa giải quyết
+    return f"{gemini_response}\n\nBạn còn câu hỏi nào cho tôi không?"
 
-    # Tạo intent mới với thông tin cơ bản
-    unresolved_intent = {
-        "tag": f"unresolved_{len(intents['intents']) + 1}",
-        "patterns": [msg],
-        "responses": []
-    }
-
-    # Thêm intent này vào danh sách intents
-    intents['intents'].append(unresolved_intent)
-
-    # Ghi vào tệp JSON
-    save_unresolved_intent_to_file(unresolved_intent)
-
-    # Gọi API Gemini như một phương án cuối
-    gemini_response = get_gemini_response(msg)
-    return f"{gemini_response}\n\nBạn còn câu hỏi nào muốn hỏi tôi nữa không? Tôi sẵn sàng trả lời những gì tôi biết."
-
-def save_unresolved_intent_to_file(new_intent):
+def save_unresolved_intent_to_file(new_question,responses):
     """
-    Lưu intent chưa được giải quyết vào tệp intents.json.
+    Lưu câu hỏi chưa được giải quyết vào tệp intents.json với định dạng chuẩn.
     """
     file_path = 'intents.json'
 
@@ -130,6 +112,13 @@ def save_unresolved_intent_to_file(new_intent):
     with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
+    # Tạo một intent mới với tag là 'chưa xác định' và câu hỏi chưa được giải quyết
+    new_intent = {
+        "tag": "chưa xác định",  # Tag cố định cho câu hỏi chưa xác định
+        "patterns": [new_question],  # Câu hỏi chưa giải quyết
+        "responses": [responses]  # Phản hồi Gemini
+    }
+
     # Thêm intent mới vào danh sách intents
     data['intents'].append(new_intent)
 
@@ -137,8 +126,20 @@ def save_unresolved_intent_to_file(new_intent):
     with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
-    print(f"Unresolved intent saved: {new_intent}")
+    print(f"Unresolved intent saved json: {new_intent}")
+    save_intent_to_mongo(new_intent)
+    print(f"Unresolved intent saved database: {new_intent}")
 # Hàm tính độ liên quan giữa phản hồi và câu nhập của người dùng
+def save_intent_to_mongo(new_intent):
+    """
+    Lưu intent vào MongoDB collection 'intents'.
+    new_intent: Dữ liệu intent cần lưu.
+    """
+    collection = get_intents_collection()  # Lấy collection 'intents'
+    
+    # Insert intent_data vào collection
+    result = collection.insert_one(new_intent)
+    print(f"Intent saved with id: {result.inserted_id}")
 def calculate_relevance(response, msg):
     """
     Tính độ liên quan giữa câu trả lời và câu nhập của người dùng.
@@ -200,6 +201,7 @@ def get_gemini_response(msg):
     except requests.exceptions.RequestException as e:
         print(f"Error calling Gemini API: {e}")  # Log lỗi gọi API
         return "There was an error processing your request."
+# Kết nối với MongoDB
 
 # Hàm chính cho chatbot
 if __name__ == "__main__":
@@ -211,3 +213,4 @@ if __name__ == "__main__":
 
         resp = get_response(sentence)  # Lấy phản hồi từ chatbot
         print(resp)
+
