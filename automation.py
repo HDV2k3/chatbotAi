@@ -1,7 +1,5 @@
 import threading
 import time
-import schedule
-from datetime import datetime
 import importlib
 import logging
 
