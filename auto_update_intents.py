@@ -32,6 +32,11 @@ def update_intents_with_rooms():
     api_urls = [
         "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/roomInfoName",
         "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/address",
+        "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/status",
+        "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/area",
+        "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/infoOwner",
+         "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/utility",
+        "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/pricingDetails",
         # Thêm các API khác vào đây
     ]
 
@@ -84,9 +89,6 @@ def update_intents_with_rooms():
             print(f"Lỗi khi ghi file {intents_file}: {e}")
     else:
         print("Không có thay đổi trong dữ liệu. Không cập nhật file.")
-
-# if __name__ == "__main__":
-#     update_intents_with_rooms()  
 
 logging.basicConfig(
     level=logging.INFO,

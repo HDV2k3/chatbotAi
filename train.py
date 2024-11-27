@@ -1,10 +1,8 @@
 import numpy as np
-import random
 import json
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-import time  # Import time for sleep
 from nltk_utils import bag_of_words, tokenize, stem_word
 from model import NeuralNet
 import logging
@@ -130,12 +128,7 @@ def save_model(model):
     FILE = "data.pth"
     torch.save(data, FILE)
     print(f'Training complete. Model saved to {FILE}')
-# if __name__ == "__main__":
-#     # Train the model
-#     trained_model = train_model()
-    
-#     # Save the trained model
-#     save_model(trained_model)
+
 
 logging.basicConfig(
     level=logging.INFO,
