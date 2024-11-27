@@ -27,4 +27,4 @@ WORKDIR /app
 COPY . /app
 EXPOSE 5000
 # Chạy ứng dụng Flask (hoặc lệnh khởi động của bạn)
-CMD ["python", "automation.py"]
+CMD ["python", "app.py"]

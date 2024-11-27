@@ -750,3 +750,15 @@
 2024-11-27 22:04:20,106 - INFO - Training process complete.
 2024-11-27 22:04:21,807 - INFO - Training process complete.
 2024-11-27 22:04:26,117 - INFO - 127.0.0.1 - - [27/Nov/2024 22:04:26] "POST /chat HTTP/1.1" 200 -
+2024-11-27 22:30:23,654 - INFO - Đang chạy auto_update_intents...
+2024-11-27 22:30:23,654 - INFO - Đang chạy training...
+2024-11-27 22:30:23,654 - INFO - Starting update intents process...
+2024-11-27 22:30:23,671 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-27 22:30:23,671 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-27 22:30:24,669 - INFO - Starting training process...
+2024-11-27 22:30:37,037 - INFO - update process complete.
+2024-11-27 22:30:46,791 - INFO - Training process complete.
+2024-11-27 22:30:49,409 - INFO - 127.0.0.1 - - [27/Nov/2024 22:30:49] "POST /chat HTTP/1.1" 200 -
