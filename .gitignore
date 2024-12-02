@@ -3,3 +3,4 @@ myenv
 data.pth
 app.log
 chatbot_automation.log
+.env
