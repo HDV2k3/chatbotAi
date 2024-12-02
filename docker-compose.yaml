@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  python:
+    build:
+      context: .
+    image: devhuynh2003/chatbot-ai:latest
+    container_name: chatbot-ai
+    env_file:
+      - .env
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python app.py
+    restart: unless-stopped
+    networks:
+      - marketing-service_app-network
+
+networks:
+  marketing-service_app-network:
+    external: true

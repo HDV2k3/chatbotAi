@@ -20,6 +20,7 @@ RUN pip install requests
 RUN pip install urllib3
 RUN pip install six
 RUN pip install pymongo
+RUN pip install python-dotenv
 # Thiết lập thư mục làm việc
 WORKDIR /app
 

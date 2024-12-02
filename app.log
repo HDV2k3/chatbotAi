@@ -762,3 +762,74 @@
 2024-11-27 22:30:37,037 - INFO - update process complete.
 2024-11-27 22:30:46,791 - INFO - Training process complete.
 2024-11-27 22:30:49,409 - INFO - 127.0.0.1 - - [27/Nov/2024 22:30:49] "POST /chat HTTP/1.1" 200 -
+2024-11-27 22:52:02,592 - INFO - Đang chạy auto_update_intents...
+2024-11-27 22:52:02,592 - INFO - Đang chạy training...
+2024-11-27 22:52:02,597 - INFO - Starting update intents process...
+2024-11-27 22:52:02,611 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-27 22:52:02,612 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-27 22:52:03,660 - INFO - Starting training process...
+2024-11-27 22:52:17,366 - INFO - update process complete.
+2024-11-27 22:52:22,480 - INFO - 127.0.0.1 - - [27/Nov/2024 22:52:22] "POST /chat HTTP/1.1" 200 -
+2024-11-27 22:52:28,093 - INFO - Training process complete.
+2024-11-27 22:53:23,697 - INFO - Đang chạy auto_update_intents...
+2024-11-27 22:53:23,697 - INFO - Đang chạy training...
+2024-11-27 22:53:23,697 - INFO - Starting update intents process...
+2024-11-27 22:53:23,713 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-27 22:53:23,715 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-27 22:53:24,482 - INFO - Starting training process...
+2024-11-27 22:53:36,536 - INFO - update process complete.
+2024-11-27 22:53:42,479 - INFO - 127.0.0.1 - - [27/Nov/2024 22:53:42] "POST /chat HTTP/1.1" 200 -
+2024-11-27 22:53:47,915 - INFO - Training process complete.
+2024-12-03 03:34:37,206 - INFO - Đang chạy auto_update_intents...
+2024-12-03 03:34:37,206 - INFO - Đang chạy training...
+2024-12-03 03:34:37,214 - INFO - Starting update intents process...
+2024-12-03 03:34:37,225 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2024-12-03 03:34:37,225 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 03:34:38,774 - INFO - Starting training process...
+2024-12-03 03:34:45,439 - INFO - update process complete.
+2024-12-03 03:35:01,198 - INFO - Training process complete.
+2024-12-02 20:36:06,946 - INFO - Đang chạy auto_update_intents...
+2024-12-02 20:36:06,947 - INFO - Đang chạy training...
+2024-12-02 20:36:06,951 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.22.0.2:5000
+2024-12-02 20:36:06,951 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-02 20:36:06,958 - ERROR - Lỗi trong auto_update_intents: No module named 'dotenv'
+2024-12-02 20:36:08,072 - INFO - Starting training process...
+2024-12-02 20:37:22,276 - INFO - Đang chạy auto_update_intents...
+2024-12-02 20:37:22,277 - INFO - Đang chạy training...
+2024-12-02 20:37:22,279 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.22.0.2:5000
+2024-12-02 20:37:22,280 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-02 20:37:22,281 - ERROR - Lỗi trong auto_update_intents: No module named 'dotenv'
+2024-12-02 20:37:22,998 - INFO - Starting training process...
+2024-12-02 20:37:49,122 - INFO - Training process complete.
+2024-12-02 20:38:05,038 - INFO - Đang chạy auto_update_intents...
+2024-12-02 20:38:05,039 - INFO - Đang chạy training...
+2024-12-02 20:38:05,056 - INFO - Starting update intents process...
+2024-12-02 20:38:05,067 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.22.0.2:5000
+2024-12-02 20:38:05,068 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-02 20:38:05,095 - INFO - update process complete.
+2024-12-02 20:38:05,780 - INFO - Starting training process...
+2024-12-02 20:38:29,927 - INFO - Training process complete.
+2024-12-02 20:42:00,474 - INFO - 172.22.0.1 - - [02/Dec/2024 20:42:00] "GET / HTTP/1.1" 200 -
+2024-12-02 20:42:03,075 - INFO - 172.22.0.1 - - [02/Dec/2024 20:42:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-02 20:42:08,345 - INFO - 172.22.0.1 - - [02/Dec/2024 20:42:08] "[31m[1mGET /chat HTTP/1.1[0m" 405 -
+2024-12-02 20:43:39,867 - INFO - 172.22.0.1 - - [02/Dec/2024 20:43:39] "POST /chat HTTP/1.1" 200 -
+2024-12-02 20:46:41,790 - INFO - 172.22.0.1 - - [02/Dec/2024 20:46:41] "OPTIONS /chat HTTP/1.1" 200 -
+2024-12-02 20:46:43,233 - INFO - 172.22.0.1 - - [02/Dec/2024 20:46:43] "POST /chat HTTP/1.1" 200 -

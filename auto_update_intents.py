@@ -3,8 +3,10 @@ import requests
 import os
 import logging
 from chat import get_intents_collection
+from dotenv import load_dotenv
 # Đường dẫn đến file intents.json
 intents_file = 'intents.json'
+load_dotenv()
 def save_intent_to_mongo(intents_data):
     """
     Lưu hoặc cập nhật intents vào MongoDB collection 'intents'.
@@ -55,14 +57,13 @@ def get_data_from_api(url):
 def update_intents_with_rooms():
     # Định nghĩa các API để lấy dữ liệu
     api_urls = [
-        "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/roomInfoName",
-        "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/address",
-        "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/status",
-        "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/area",
-        "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/infoOwner",
-        "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/utility",
-        "http://ec2-54-206-187-225.ap-southeast-2.compute.amazonaws.com:8080/marketing/train/pricingDetails",
-        # Thêm các API khác vào đây
+           os.getenv('ROOM_INFO_NAME_URL'),
+        os.getenv('ADDRESS_URL'),
+        os.getenv('STATUS_URL'),
+        os.getenv('AREA_URL'),
+        os.getenv('INFO_OWNER_URL'),
+        os.getenv('UTILITY_URL'),
+        os.getenv('PRICING_DETAILS_URL')
     ]
 
     intents = {'intents': []}
