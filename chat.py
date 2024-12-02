@@ -4,14 +4,15 @@ import requests
 from model import NeuralNet
 from nltk_utils import  tokenize
 import os
+from dotenv import load_dotenv
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
-
+load_dotenv()
 # URI kết nối tới MongoDB Atlas
-uri = "mongodb+srv://DevHuynh2003:DevHuynh2003@cluster0.ueypw.mongodb.net/intents?retryWrites=true&w=majority&appName=Cluster0"
+urlDatabase = os.getenv('URL_DATABASE')
 
 # Tạo một client mới và kết nối đến MongoDB Atlas
-client = MongoClient(uri, server_api=ServerApi('1'))
+client = MongoClient(urlDatabase, server_api=ServerApi('1'))
 
 def get_db():
     """
@@ -154,8 +155,8 @@ def get_gemini_response(msg):
     Gọi API Gemini để tạo phản hồi khi không tìm được intent phù hợp.
     msg: câu nhập từ người dùng.
     """
-    api_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent"
-    api_key = "AIzaSyALw41vjEPzyBrI648d158vSchtjoD23us"  # API key (cần bảo mật hơn)
+    api_url = os.getenv('API_URL')
+    api_key = os.getenv('API_KEY')
 
     # Headers cho yêu cầu HTTP
     headers = {
