@@ -57,14 +57,15 @@ def get_data_from_api(url):
 def update_intents_with_rooms():
     # Định nghĩa các API để lấy dữ liệu
     api_urls = [
-           os.getenv('ROOM_INFO_NAME_URL'),
-        os.getenv('ADDRESS_URL'),
-        os.getenv('STATUS_URL'),
-        os.getenv('AREA_URL'),
-        os.getenv('INFO_OWNER_URL'),
-        os.getenv('UTILITY_URL'),
-        os.getenv('PRICING_DETAILS_URL')
+        os.getenv("API_ROOM_INFO_NAME"),
+        os.getenv("API_ADDRESS"),
+        os.getenv("API_STATUS"),
+        os.getenv("API_AREA"),
+        os.getenv("API_INFO_OWNER"),
+        os.getenv("API_UTILITY"),
+        os.getenv("API_PRICING_DETAILS"),
     ]
+
 
     intents = {'intents': []}
 

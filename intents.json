@@ -176,28 +176,31 @@
             "tag": "Danh sách các loại phòng",
             "patterns": [
                 "Có những loại phòng nào?",
-                "Liệt kê tất cả các loại phòng",
                 "Hãy cho tôi biết các loại phòng",
+                "Liệt kê tất cả các loại phòng",
                 "Danh sách các phòng hiện có"
             ],
             "responses": [
-                "Phòng: Phòng trọ sinh viên tiện nghi",
-                "Phòng: Phòng trọ sinh viên tiện lợi",
-                "Phòng: test",
-                "Phòng: Căn hộ dịch vụ sang trọng",
-                "Phòng: Căn hộ Sunrise City",
-                "Phòng: Căn hộ mini hiện đại",
-                "Phòng: Phòng mới tiện nghi",
-                "Phòng: Phòng tiện nghi cơ bản",
-                "Phòng: Phòng trọ rộng rãi",
-                "Phòng: Phòng trọ hiện đại",
-                "Phòng: Studio mới xây",
                 "Phòng: Phòng trọ sinh viên",
-                "Phòng: Phòng tiện nghi gần chợ",
                 "Phòng: Căn hộ mini view đẹp",
+                "Phòng: tesst",
+                "Phòng: test",
+                "Phòng: Căn hộ Sunrise City",
+                "Phòng: Phòng mới tiện nghi",
+                "Phòng: Phòng trọ hiện đại",
+                "Phòng: Phòng trọ sinh viên tiện lợi",
+                "Phòng: Phòng tiện nghi cơ bản",
+                "Phòng: Quang Cáo",
+                "Phòng: Căn hộ dịch vụ sang trọng",
+                "Phòng: 9",
+                "Phòng: Căn hộ mini hiện đại",
                 "Phòng: Phòng trọ tiện nghi hiện đại",
+                "Phòng: Phòng tiện nghi gần chợ",
+                "Phòng: Phòng studio tiện nghi",
                 "Phòng: Phòng trọ tiện nghi",
-                "Phòng: Phòng studio tiện nghi"
+                "Phòng: Studio mới xây",
+                "Phòng: Phòng trọ sinh viên tiện nghi",
+                "Phòng: Phòng trọ rộng rãi"
             ]
         },
         {
@@ -215,8 +218,8 @@
             "tag": "Địa chỉ phòng Phòng studio tiện nghi",
             "patterns": [
                 "Địa chỉ của phòng Phòng studio tiện nghi là gì?",
-                "Phòng studio tiện nghi địa chỉ ở đâu?",
-                "Tôi muốn biết địa chỉ phòng Phòng studio tiện nghi"
+                "Tôi muốn biết địa chỉ phòng Phòng studio tiện nghi",
+                "Phòng studio tiện nghi địa chỉ ở đâu?"
             ],
             "responses": [
                 "Phòng studio tiện nghi - Địa chỉ: Phú Nhuận"
@@ -225,8 +228,8 @@
         {
             "tag": "Địa chỉ phòng Căn hộ mini view đẹp",
             "patterns": [
-                "Địa chỉ của phòng Căn hộ mini view đẹp là gì?",
                 "Tôi muốn biết địa chỉ phòng Căn hộ mini view đẹp",
+                "Địa chỉ của phòng Căn hộ mini view đẹp là gì?",
                 "Căn hộ mini view đẹp địa chỉ ở đâu?"
             ],
             "responses": [
@@ -242,16 +245,17 @@
             ],
             "responses": [
                 "Phòng trọ tiện nghi - Địa chỉ: Thủ Đức",
+                "Phòng trọ tiện nghi - Địa chỉ: Quận 7",
                 "Phòng trọ tiện nghi - Địa chỉ: Bình Thạnh",
-                "Phòng trọ tiện nghi - Địa chỉ: Quận 7"
+                "Phòng trọ tiện nghi - Địa chỉ: Thành phố Thủ Đức"
             ]
         },
         {
             "tag": "Địa chỉ phòng Căn hộ dịch vụ sang trọng",
             "patterns": [
+                "Tôi muốn biết địa chỉ phòng Căn hộ dịch vụ sang trọng",
                 "Địa chỉ của phòng Căn hộ dịch vụ sang trọng là gì?",
-                "Căn hộ dịch vụ sang trọng địa chỉ ở đâu?",
-                "Tôi muốn biết địa chỉ phòng Căn hộ dịch vụ sang trọng"
+                "Căn hộ dịch vụ sang trọng địa chỉ ở đâu?"
             ],
             "responses": [
                 "Căn hộ dịch vụ sang trọng - Địa chỉ: Tân Bình"
@@ -261,12 +265,12 @@
             "tag": "Địa chỉ phòng Phòng trọ sinh viên",
             "patterns": [
                 "Tôi muốn biết địa chỉ phòng Phòng trọ sinh viên",
-                "Địa chỉ của phòng Phòng trọ sinh viên là gì?",
-                "Phòng trọ sinh viên địa chỉ ở đâu?"
+                "Phòng trọ sinh viên địa chỉ ở đâu?",
+                "Địa chỉ của phòng Phòng trọ sinh viên là gì?"
             ],
             "responses": [
-                "Phòng trọ sinh viên - Địa chỉ: Quận 10",
-                "Phòng trọ sinh viên - Địa chỉ: Quận 7"
+                "Phòng trọ sinh viên - Địa chỉ: Quận 7",
+                "Phòng trọ sinh viên - Địa chỉ: Quận 10"
             ]
         },
         {
@@ -295,20 +299,21 @@
         {
             "tag": "Địa chỉ phòng Phòng tiện nghi gần chợ",
             "patterns": [
-                "Tôi muốn biết địa chỉ phòng Phòng tiện nghi gần chợ",
                 "Địa chỉ của phòng Phòng tiện nghi gần chợ là gì?",
+                "Tôi muốn biết địa chỉ phòng Phòng tiện nghi gần chợ",
                 "Phòng tiện nghi gần chợ địa chỉ ở đâu?"
             ],
             "responses": [
+                "Phòng tiện nghi gần chợ - Địa chỉ: Thành phố Thủ Đức",
                 "Phòng tiện nghi gần chợ - Địa chỉ: Quận 2"
             ]
         },
         {
             "tag": "Địa chỉ phòng Phòng trọ hiện đại",
             "patterns": [
+                "Phòng trọ hiện đại địa chỉ ở đâu?",
                 "Tôi muốn biết địa chỉ phòng Phòng trọ hiện đại",
-                "Địa chỉ của phòng Phòng trọ hiện đại là gì?",
-                "Phòng trọ hiện đại địa chỉ ở đâu?"
+                "Địa chỉ của phòng Phòng trọ hiện đại là gì?"
             ],
             "responses": [
                 "Phòng trọ hiện đại - Địa chỉ: Quận 3"
@@ -317,9 +322,9 @@
         {
             "tag": "Địa chỉ phòng Phòng trọ sinh viên tiện nghi",
             "patterns": [
-                "Phòng trọ sinh viên tiện nghi địa chỉ ở đâu?",
+                "Địa chỉ của phòng Phòng trọ sinh viên tiện nghi là gì?",
                 "Tôi muốn biết địa chỉ phòng Phòng trọ sinh viên tiện nghi",
-                "Địa chỉ của phòng Phòng trọ sinh viên tiện nghi là gì?"
+                "Phòng trọ sinh viên tiện nghi địa chỉ ở đâu?"
             ],
             "responses": [
                 "Phòng trọ sinh viên tiện nghi - Địa chỉ: Quận 4"
@@ -328,9 +333,9 @@
         {
             "tag": "Địa chỉ phòng Phòng trọ tiện nghi hiện đại",
             "patterns": [
-                "Tôi muốn biết địa chỉ phòng Phòng trọ tiện nghi hiện đại",
+                "Địa chỉ của phòng Phòng trọ tiện nghi hiện đại là gì?",
                 "Phòng trọ tiện nghi hiện đại địa chỉ ở đâu?",
-                "Địa chỉ của phòng Phòng trọ tiện nghi hiện đại là gì?"
+                "Tôi muốn biết địa chỉ phòng Phòng trọ tiện nghi hiện đại"
             ],
             "responses": [
                 "Phòng trọ tiện nghi hiện đại - Địa chỉ: Quận 5"
@@ -339,9 +344,9 @@
         {
             "tag": "Địa chỉ phòng Phòng trọ rộng rãi",
             "patterns": [
+                "Địa chỉ của phòng Phòng trọ rộng rãi là gì?",
                 "Tôi muốn biết địa chỉ phòng Phòng trọ rộng rãi",
-                "Phòng trọ rộng rãi địa chỉ ở đâu?",
-                "Địa chỉ của phòng Phòng trọ rộng rãi là gì?"
+                "Phòng trọ rộng rãi địa chỉ ở đâu?"
             ],
             "responses": [
                 "Phòng trọ rộng rãi - Địa chỉ: Quận 6"
@@ -350,9 +355,9 @@
         {
             "tag": "Địa chỉ phòng Phòng tiện nghi cơ bản",
             "patterns": [
-                "Địa chỉ của phòng Phòng tiện nghi cơ bản là gì?",
+                "Tôi muốn biết địa chỉ phòng Phòng tiện nghi cơ bản",
                 "Phòng tiện nghi cơ bản địa chỉ ở đâu?",
-                "Tôi muốn biết địa chỉ phòng Phòng tiện nghi cơ bản"
+                "Địa chỉ của phòng Phòng tiện nghi cơ bản là gì?"
             ],
             "responses": [
                 "Phòng tiện nghi cơ bản - Địa chỉ: Quận 8"
@@ -361,11 +366,12 @@
         {
             "tag": "Địa chỉ phòng Phòng mới tiện nghi",
             "patterns": [
+                "Tôi muốn biết địa chỉ phòng Phòng mới tiện nghi",
                 "Phòng mới tiện nghi địa chỉ ở đâu?",
-                "Địa chỉ của phòng Phòng mới tiện nghi là gì?",
-                "Tôi muốn biết địa chỉ phòng Phòng mới tiện nghi"
+                "Địa chỉ của phòng Phòng mới tiện nghi là gì?"
             ],
             "responses": [
+                "Phòng mới tiện nghi - Địa chỉ: Thành phố Thủ Đức",
                 "Phòng mới tiện nghi - Địa chỉ: Quận 9"
             ]
         },
@@ -373,55 +379,60 @@
             "tag": "Địa chỉ phòng test",
             "patterns": [
                 "test địa chỉ ở đâu?",
-                "Tôi muốn biết địa chỉ phòng test",
-                "Địa chỉ của phòng test là gì?"
+                "Địa chỉ của phòng test là gì?",
+                "Tôi muốn biết địa chỉ phòng test"
             ],
             "responses": [
+                "test - Địa chỉ: Thủ Đức",
                 "test - Địa chỉ: test"
             ]
         },
         {
             "tag": "Trạng thái phòng Studio mới xây",
             "patterns": [
+                "Trạng thái của phòng Studio mới xây",
                 "Phòng Studio mới xây có còn trống không?",
-                "Studio mới xây còn phòng không?",
-                "Trạng thái của phòng Studio mới xây"
+                "Studio mới xây còn phòng không?"
             ],
             "responses": [
+                "Studio mới xây - Trạng thái: ACTIVE",
                 "Studio mới xây - Trạng thái: active"
             ]
         },
         {
             "tag": "Trạng thái phòng Phòng studio tiện nghi",
             "patterns": [
+                "Phòng studio tiện nghi còn phòng không?",
                 "Trạng thái của phòng Phòng studio tiện nghi",
-                "Phòng Phòng studio tiện nghi có còn trống không?",
-                "Phòng studio tiện nghi còn phòng không?"
+                "Phòng Phòng studio tiện nghi có còn trống không?"
             ],
             "responses": [
+                "Phòng studio tiện nghi - Trạng thái: pending",
                 "Phòng studio tiện nghi - Trạng thái: active",
-                "Phòng studio tiện nghi - Trạng thái: pending"
+                "Phòng studio tiện nghi - Trạng thái: PENDING"
             ]
         },
         {
             "tag": "Trạng thái phòng Căn hộ mini view đẹp",
             "patterns": [
                 "Phòng Căn hộ mini view đẹp có còn trống không?",
-                "Trạng thái của phòng Căn hộ mini view đẹp",
-                "Căn hộ mini view đẹp còn phòng không?"
+                "Căn hộ mini view đẹp còn phòng không?",
+                "Trạng thái của phòng Căn hộ mini view đẹp"
             ],
             "responses": [
+                "Căn hộ mini view đẹp - Trạng thái: ACTIVE",
                 "Căn hộ mini view đẹp - Trạng thái: active"
             ]
         },
         {
             "tag": "Trạng thái phòng Phòng trọ tiện nghi",
             "patterns": [
-                "Phòng trọ tiện nghi còn phòng không?",
                 "Phòng Phòng trọ tiện nghi có còn trống không?",
-                "Trạng thái của phòng Phòng trọ tiện nghi"
+                "Trạng thái của phòng Phòng trọ tiện nghi",
+                "Phòng trọ tiện nghi còn phòng không?"
             ],
             "responses": [
+                "Phòng trọ tiện nghi - Trạng thái: ACTIVE",
                 "Phòng trọ tiện nghi - Trạng thái: active"
             ]
         },
@@ -429,32 +440,35 @@
             "tag": "Trạng thái phòng Căn hộ dịch vụ sang trọng",
             "patterns": [
                 "Trạng thái của phòng Căn hộ dịch vụ sang trọng",
-                "Phòng Căn hộ dịch vụ sang trọng có còn trống không?",
-                "Căn hộ dịch vụ sang trọng còn phòng không?"
+                "Căn hộ dịch vụ sang trọng còn phòng không?",
+                "Phòng Căn hộ dịch vụ sang trọng có còn trống không?"
             ],
             "responses": [
+                "Căn hộ dịch vụ sang trọng - Trạng thái: ACTIVE",
                 "Căn hộ dịch vụ sang trọng - Trạng thái: active"
             ]
         },
         {
             "tag": "Trạng thái phòng Phòng trọ sinh viên",
             "patterns": [
-                "Trạng thái của phòng Phòng trọ sinh viên",
                 "Phòng trọ sinh viên còn phòng không?",
+                "Trạng thái của phòng Phòng trọ sinh viên",
                 "Phòng Phòng trọ sinh viên có còn trống không?"
             ],
             "responses": [
+                "Phòng trọ sinh viên - Trạng thái: ACTIVE",
                 "Phòng trọ sinh viên - Trạng thái: active"
             ]
         },
         {
             "tag": "Trạng thái phòng Căn hộ mini hiện đại",
             "patterns": [
-                "Căn hộ mini hiện đại còn phòng không?",
                 "Phòng Căn hộ mini hiện đại có còn trống không?",
+                "Căn hộ mini hiện đại còn phòng không?",
                 "Trạng thái của phòng Căn hộ mini hiện đại"
             ],
             "responses": [
+                "Căn hộ mini hiện đại - Trạng thái: ACTIVE",
                 "Căn hộ mini hiện đại - Trạng thái: active"
             ]
         },
@@ -462,10 +476,11 @@
             "tag": "Trạng thái phòng Phòng trọ sinh viên tiện lợi",
             "patterns": [
                 "Trạng thái của phòng Phòng trọ sinh viên tiện lợi",
-                "Phòng Phòng trọ sinh viên tiện lợi có còn trống không?",
-                "Phòng trọ sinh viên tiện lợi còn phòng không?"
+                "Phòng trọ sinh viên tiện lợi còn phòng không?",
+                "Phòng Phòng trọ sinh viên tiện lợi có còn trống không?"
             ],
             "responses": [
+                "Phòng trọ sinh viên tiện lợi - Trạng thái: ACTIVE",
                 "Phòng trọ sinh viên tiện lợi - Trạng thái: active"
             ]
         },
@@ -473,10 +488,11 @@
             "tag": "Trạng thái phòng Phòng tiện nghi gần chợ",
             "patterns": [
                 "Phòng tiện nghi gần chợ còn phòng không?",
-                "Phòng Phòng tiện nghi gần chợ có còn trống không?",
-                "Trạng thái của phòng Phòng tiện nghi gần chợ"
+                "Trạng thái của phòng Phòng tiện nghi gần chợ",
+                "Phòng Phòng tiện nghi gần chợ có còn trống không?"
             ],
             "responses": [
+                "Phòng tiện nghi gần chợ - Trạng thái: ACTIVE",
                 "Phòng tiện nghi gần chợ - Trạng thái: active"
             ]
         },
@@ -488,28 +504,31 @@
                 "Phòng Phòng trọ hiện đại có còn trống không?"
             ],
             "responses": [
-                "Phòng trọ hiện đại - Trạng thái: active"
+                "Phòng trọ hiện đại - Trạng thái: active",
+                "Phòng trọ hiện đại - Trạng thái: ACTIVE"
             ]
         },
         {
             "tag": "Trạng thái phòng Phòng trọ sinh viên tiện nghi",
             "patterns": [
-                "Phòng Phòng trọ sinh viên tiện nghi có còn trống không?",
+                "Trạng thái của phòng Phòng trọ sinh viên tiện nghi",
                 "Phòng trọ sinh viên tiện nghi còn phòng không?",
-                "Trạng thái của phòng Phòng trọ sinh viên tiện nghi"
+                "Phòng Phòng trọ sinh viên tiện nghi có còn trống không?"
             ],
             "responses": [
+                "Phòng trọ sinh viên tiện nghi - Trạng thái: ACTIVE",
                 "Phòng trọ sinh viên tiện nghi - Trạng thái: active"
             ]
         },
         {
             "tag": "Trạng thái phòng Phòng trọ tiện nghi hiện đại",
             "patterns": [
-                "Trạng thái của phòng Phòng trọ tiện nghi hiện đại",
                 "Phòng trọ tiện nghi hiện đại còn phòng không?",
-                "Phòng Phòng trọ tiện nghi hiện đại có còn trống không?"
+                "Phòng Phòng trọ tiện nghi hiện đại có còn trống không?",
+                "Trạng thái của phòng Phòng trọ tiện nghi hiện đại"
             ],
             "responses": [
+                "Phòng trọ tiện nghi hiện đại - Trạng thái: ACTIVE",
                 "Phòng trọ tiện nghi hiện đại - Trạng thái: active"
             ]
         },
@@ -521,7 +540,8 @@
                 "Trạng thái của phòng Phòng trọ rộng rãi"
             ],
             "responses": [
-                "Phòng trọ rộng rãi - Trạng thái: active"
+                "Phòng trọ rộng rãi - Trạng thái: active",
+                "Phòng trọ rộng rãi - Trạng thái: ACTIVE"
             ]
         },
         {
@@ -532,17 +552,19 @@
                 "Trạng thái của phòng Phòng tiện nghi cơ bản"
             ],
             "responses": [
+                "Phòng tiện nghi cơ bản - Trạng thái: ACTIVE",
                 "Phòng tiện nghi cơ bản - Trạng thái: active"
             ]
         },
         {
             "tag": "Trạng thái phòng Phòng mới tiện nghi",
             "patterns": [
-                "Trạng thái của phòng Phòng mới tiện nghi",
+                "Phòng mới tiện nghi còn phòng không?",
                 "Phòng Phòng mới tiện nghi có còn trống không?",
-                "Phòng mới tiện nghi còn phòng không?"
+                "Trạng thái của phòng Phòng mới tiện nghi"
             ],
             "responses": [
+                "Phòng mới tiện nghi - Trạng thái: ACTIVE",
                 "Phòng mới tiện nghi - Trạng thái: active"
             ]
         },
@@ -550,19 +572,20 @@
             "tag": "Trạng thái phòng test",
             "patterns": [
                 "Phòng test có còn trống không?",
-                "Trạng thái của phòng test",
-                "test còn phòng không?"
+                "test còn phòng không?",
+                "Trạng thái của phòng test"
             ],
             "responses": [
+                "test - Trạng thái: null",
                 "test - Trạng thái: "
             ]
         },
         {
             "tag": "Diện tích phòng Studio mới xây",
             "patterns": [
-                "Kích thước phòng Studio mới xây",
+                "Diện tích phòng Studio mới xây là bao nhiêu?",
                 "Studio mới xây diện tích như thế nào?",
-                "Diện tích phòng Studio mới xây là bao nhiêu?"
+                "Kích thước phòng Studio mới xây"
             ],
             "responses": [
                 "Studio mới xây - có chiều dài: 4.0m, chiều rộng: 5.0m, diện tích tổng: 25.0m²"
@@ -593,22 +616,22 @@
         {
             "tag": "Diện tích phòng Phòng trọ tiện nghi",
             "patterns": [
-                "Kích thước phòng Phòng trọ tiện nghi",
                 "Diện tích phòng Phòng trọ tiện nghi là bao nhiêu?",
+                "Kích thước phòng Phòng trọ tiện nghi",
                 "Phòng trọ tiện nghi diện tích như thế nào?"
             ],
             "responses": [
+                "Phòng trọ tiện nghi - có chiều dài: 3.8m, chiều rộng: 4.8m, diện tích tổng: 24.0m²",
                 "Phòng trọ tiện nghi - có chiều dài: 3.2m, chiều rộng: 4.0m, diện tích tổng: 18.0m²",
-                "Phòng trọ tiện nghi - có chiều dài: 3.5m, chiều rộng: 4.7m, diện tích tổng: 24.0m²",
-                "Phòng trọ tiện nghi - có chiều dài: 3.8m, chiều rộng: 4.8m, diện tích tổng: 24.0m²"
+                "Phòng trọ tiện nghi - có chiều dài: 3.5m, chiều rộng: 4.7m, diện tích tổng: 24.0m²"
             ]
         },
         {
             "tag": "Diện tích phòng Căn hộ dịch vụ sang trọng",
             "patterns": [
-                "Căn hộ dịch vụ sang trọng diện tích như thế nào?",
+                "Diện tích phòng Căn hộ dịch vụ sang trọng là bao nhiêu?",
                 "Kích thước phòng Căn hộ dịch vụ sang trọng",
-                "Diện tích phòng Căn hộ dịch vụ sang trọng là bao nhiêu?"
+                "Căn hộ dịch vụ sang trọng diện tích như thế nào?"
             ],
             "responses": [
                 "Căn hộ dịch vụ sang trọng - có chiều dài: 4.0m, chiều rộng: 6.0m, diện tích tổng: 35.0m²"
@@ -617,21 +640,21 @@
         {
             "tag": "Diện tích phòng Phòng trọ sinh viên",
             "patterns": [
-                "Phòng trọ sinh viên diện tích như thế nào?",
+                "Kích thước phòng Phòng trọ sinh viên",
                 "Diện tích phòng Phòng trọ sinh viên là bao nhiêu?",
-                "Kích thước phòng Phòng trọ sinh viên"
+                "Phòng trọ sinh viên diện tích như thế nào?"
             ],
             "responses": [
-                "Phòng trọ sinh viên - có chiều dài: 3.0m, chiều rộng: 4.2m, diện tích tổng: 22.0m²",
-                "Phòng trọ sinh viên - có chiều dài: 3.6m, chiều rộng: 5.2m, diện tích tổng: 32.0m²"
+                "Phòng trọ sinh viên - có chiều dài: 3.6m, chiều rộng: 5.2m, diện tích tổng: 32.0m²",
+                "Phòng trọ sinh viên - có chiều dài: 3.0m, chiều rộng: 4.2m, diện tích tổng: 22.0m²"
             ]
         },
         {
             "tag": "Diện tích phòng Căn hộ mini hiện đại",
             "patterns": [
                 "Căn hộ mini hiện đại diện tích như thế nào?",
-                "Diện tích phòng Căn hộ mini hiện đại là bao nhiêu?",
-                "Kích thước phòng Căn hộ mini hiện đại"
+                "Kích thước phòng Căn hộ mini hiện đại",
+                "Diện tích phòng Căn hộ mini hiện đại là bao nhiêu?"
             ],
             "responses": [
                 "Căn hộ mini hiện đại - có chiều dài: 4.0m, chiều rộng: 5.5m, diện tích tổng: 30.0m²"
@@ -651,8 +674,8 @@
         {
             "tag": "Diện tích phòng Phòng tiện nghi gần chợ",
             "patterns": [
-                "Diện tích phòng Phòng tiện nghi gần chợ là bao nhiêu?",
                 "Phòng tiện nghi gần chợ diện tích như thế nào?",
+                "Diện tích phòng Phòng tiện nghi gần chợ là bao nhiêu?",
                 "Kích thước phòng Phòng tiện nghi gần chợ"
             ],
             "responses": [
@@ -673,9 +696,9 @@
         {
             "tag": "Diện tích phòng Phòng trọ sinh viên tiện nghi",
             "patterns": [
+                "Kích thước phòng Phòng trọ sinh viên tiện nghi",
                 "Diện tích phòng Phòng trọ sinh viên tiện nghi là bao nhiêu?",
-                "Phòng trọ sinh viên tiện nghi diện tích như thế nào?",
-                "Kích thước phòng Phòng trọ sinh viên tiện nghi"
+                "Phòng trọ sinh viên tiện nghi diện tích như thế nào?"
             ],
             "responses": [
                 "Phòng trọ sinh viên tiện nghi - có chiều dài: 3.8m, chiều rộng: 5.0m, diện tích tổng: 28.0m²"
@@ -684,8 +707,8 @@
         {
             "tag": "Diện tích phòng Phòng trọ tiện nghi hiện đại",
             "patterns": [
-                "Diện tích phòng Phòng trọ tiện nghi hiện đại là bao nhiêu?",
                 "Kích thước phòng Phòng trọ tiện nghi hiện đại",
+                "Diện tích phòng Phòng trọ tiện nghi hiện đại là bao nhiêu?",
                 "Phòng trọ tiện nghi hiện đại diện tích như thế nào?"
             ],
             "responses": [
@@ -696,8 +719,8 @@
             "tag": "Diện tích phòng Phòng trọ rộng rãi",
             "patterns": [
                 "Diện tích phòng Phòng trọ rộng rãi là bao nhiêu?",
-                "Kích thước phòng Phòng trọ rộng rãi",
-                "Phòng trọ rộng rãi diện tích như thế nào?"
+                "Phòng trọ rộng rãi diện tích như thế nào?",
+                "Kích thước phòng Phòng trọ rộng rãi"
             ],
             "responses": [
                 "Phòng trọ rộng rãi - có chiều dài: 3.8m, chiều rộng: 5.0m, diện tích tổng: 30.0m²"
@@ -717,9 +740,9 @@
         {
             "tag": "Diện tích phòng Phòng mới tiện nghi",
             "patterns": [
-                "Kích thước phòng Phòng mới tiện nghi",
+                "Diện tích phòng Phòng mới tiện nghi là bao nhiêu?",
                 "Phòng mới tiện nghi diện tích như thế nào?",
-                "Diện tích phòng Phòng mới tiện nghi là bao nhiêu?"
+                "Kích thước phòng Phòng mới tiện nghi"
             ],
             "responses": [
                 "Phòng mới tiện nghi - có chiều dài: 3.7m, chiều rộng: 5.0m, diện tích tổng: 26.0m²"
@@ -733,15 +756,16 @@
                 "Diện tích phòng test là bao nhiêu?"
             ],
             "responses": [
+                "test - có chiều dài: 3.0m, chiều rộng: 3.0m, diện tích tổng: 9.0m²",
                 "test - có chiều dài: 20.0m, chiều rộng: 20.0m, diện tích tổng: 20.0m²"
             ]
         },
         {
             "tag": "Thông tin chủ phòng Studio mới xây",
             "patterns": [
-                "Thông tin liên lạc chủ phòng Studio mới xây",
                 "Ai là người quản lý phòng Studio mới xây?",
-                "Cho tôi thông tin chủ phòng Studio mới xây"
+                "Cho tôi thông tin chủ phòng Studio mới xây",
+                "Thông tin liên lạc chủ phòng Studio mới xây"
             ],
             "responses": [
                 "Phòng Studio mới xây do ông System làm đại diện. Số điện thoại: 0329615309",
@@ -751,9 +775,9 @@
         {
             "tag": "Thông tin chủ phòng Phòng studio tiện nghi",
             "patterns": [
+                "Thông tin liên lạc chủ phòng Phòng studio tiện nghi",
                 "Ai là người quản lý phòng Phòng studio tiện nghi?",
-                "Cho tôi thông tin chủ phòng Phòng studio tiện nghi",
-                "Thông tin liên lạc chủ phòng Phòng studio tiện nghi"
+                "Cho tôi thông tin chủ phòng Phòng studio tiện nghi"
             ],
             "responses": [
                 "Phòng Phòng studio tiện nghi do ông System làm đại diện. Số điện thoại: 0987654321"
@@ -762,9 +786,9 @@
         {
             "tag": "Thông tin chủ phòng Căn hộ mini view đẹp",
             "patterns": [
+                "Ai là người quản lý phòng Căn hộ mini view đẹp?",
                 "Cho tôi thông tin chủ phòng Căn hộ mini view đẹp",
-                "Thông tin liên lạc chủ phòng Căn hộ mini view đẹp",
-                "Ai là người quản lý phòng Căn hộ mini view đẹp?"
+                "Thông tin liên lạc chủ phòng Căn hộ mini view đẹp"
             ],
             "responses": [
                 "Phòng Căn hộ mini view đẹp do ông System làm đại diện. Số điện thoại: 0912345678"
@@ -778,17 +802,17 @@
                 "Cho tôi thông tin chủ phòng Phòng trọ tiện nghi"
             ],
             "responses": [
-                "Phòng Phòng trọ tiện nghi do ông System làm đại diện. Số điện thoại: 0909876543",
                 "Phòng Phòng trọ tiện nghi do ông System làm đại diện. Số điện thoại: 0909789012",
-                "Phòng Phòng trọ tiện nghi do ông System làm đại diện. Số điện thoại: 0908765432"
+                "Phòng Phòng trọ tiện nghi do ông System làm đại diện. Số điện thoại: 0908765432",
+                "Phòng Phòng trọ tiện nghi do ông System làm đại diện. Số điện thoại: 0909876543"
             ]
         },
         {
             "tag": "Thông tin chủ phòng Căn hộ dịch vụ sang trọng",
             "patterns": [
-                "Thông tin liên lạc chủ phòng Căn hộ dịch vụ sang trọng",
+                "Cho tôi thông tin chủ phòng Căn hộ dịch vụ sang trọng",
                 "Ai là người quản lý phòng Căn hộ dịch vụ sang trọng?",
-                "Cho tôi thông tin chủ phòng Căn hộ dịch vụ sang trọng"
+                "Thông tin liên lạc chủ phòng Căn hộ dịch vụ sang trọng"
             ],
             "responses": [
                 "Phòng Căn hộ dịch vụ sang trọng do ông System làm đại diện. Số điện thoại: 0938123456"
@@ -797,9 +821,9 @@
         {
             "tag": "Thông tin chủ phòng Phòng trọ sinh viên",
             "patterns": [
+                "Cho tôi thông tin chủ phòng Phòng trọ sinh viên",
                 "Thông tin liên lạc chủ phòng Phòng trọ sinh viên",
-                "Ai là người quản lý phòng Phòng trọ sinh viên?",
-                "Cho tôi thông tin chủ phòng Phòng trọ sinh viên"
+                "Ai là người quản lý phòng Phòng trọ sinh viên?"
             ],
             "responses": [
                 "Phòng Phòng trọ sinh viên do ông System làm đại diện. Số điện thoại: 0934567890",
@@ -809,8 +833,8 @@
         {
             "tag": "Thông tin chủ phòng Căn hộ mini hiện đại",
             "patterns": [
-                "Thông tin liên lạc chủ phòng Căn hộ mini hiện đại",
                 "Cho tôi thông tin chủ phòng Căn hộ mini hiện đại",
+                "Thông tin liên lạc chủ phòng Căn hộ mini hiện đại",
                 "Ai là người quản lý phòng Căn hộ mini hiện đại?"
             ],
             "responses": [
@@ -820,9 +844,9 @@
         {
             "tag": "Thông tin chủ phòng Phòng trọ sinh viên tiện lợi",
             "patterns": [
-                "Ai là người quản lý phòng Phòng trọ sinh viên tiện lợi?",
+                "Cho tôi thông tin chủ phòng Phòng trọ sinh viên tiện lợi",
                 "Thông tin liên lạc chủ phòng Phòng trọ sinh viên tiện lợi",
-                "Cho tôi thông tin chủ phòng Phòng trọ sinh viên tiện lợi"
+                "Ai là người quản lý phòng Phòng trọ sinh viên tiện lợi?"
             ],
             "responses": [
                 "Phòng Phòng trọ sinh viên tiện lợi do ông System làm đại diện. Số điện thoại: 0909123456"
@@ -831,9 +855,9 @@
         {
             "tag": "Thông tin chủ phòng Phòng tiện nghi gần chợ",
             "patterns": [
+                "Thông tin liên lạc chủ phòng Phòng tiện nghi gần chợ",
                 "Cho tôi thông tin chủ phòng Phòng tiện nghi gần chợ",
-                "Ai là người quản lý phòng Phòng tiện nghi gần chợ?",
-                "Thông tin liên lạc chủ phòng Phòng tiện nghi gần chợ"
+                "Ai là người quản lý phòng Phòng tiện nghi gần chợ?"
             ],
             "responses": [
                 "Phòng Phòng tiện nghi gần chợ do ông System làm đại diện. Số điện thoại: 0909234567"
@@ -842,8 +866,8 @@
         {
             "tag": "Thông tin chủ phòng Phòng trọ hiện đại",
             "patterns": [
-                "Thông tin liên lạc chủ phòng Phòng trọ hiện đại",
                 "Ai là người quản lý phòng Phòng trọ hiện đại?",
+                "Thông tin liên lạc chủ phòng Phòng trọ hiện đại",
                 "Cho tôi thông tin chủ phòng Phòng trọ hiện đại"
             ],
             "responses": [
@@ -853,9 +877,9 @@
         {
             "tag": "Thông tin chủ phòng Phòng trọ sinh viên tiện nghi",
             "patterns": [
-                "Ai là người quản lý phòng Phòng trọ sinh viên tiện nghi?",
+                "Thông tin liên lạc chủ phòng Phòng trọ sinh viên tiện nghi",
                 "Cho tôi thông tin chủ phòng Phòng trọ sinh viên tiện nghi",
-                "Thông tin liên lạc chủ phòng Phòng trọ sinh viên tiện nghi"
+                "Ai là người quản lý phòng Phòng trọ sinh viên tiện nghi?"
             ],
             "responses": [
                 "Phòng Phòng trọ sinh viên tiện nghi do ông System làm đại diện. Số điện thoại: 0909456789"
@@ -865,8 +889,8 @@
             "tag": "Thông tin chủ phòng Phòng trọ tiện nghi hiện đại",
             "patterns": [
                 "Thông tin liên lạc chủ phòng Phòng trọ tiện nghi hiện đại",
-                "Ai là người quản lý phòng Phòng trọ tiện nghi hiện đại?",
-                "Cho tôi thông tin chủ phòng Phòng trọ tiện nghi hiện đại"
+                "Cho tôi thông tin chủ phòng Phòng trọ tiện nghi hiện đại",
+                "Ai là người quản lý phòng Phòng trọ tiện nghi hiện đại?"
             ],
             "responses": [
                 "Phòng Phòng trọ tiện nghi hiện đại do ông System làm đại diện. Số điện thoại: 0909567890"
@@ -875,9 +899,9 @@
         {
             "tag": "Thông tin chủ phòng Phòng trọ rộng rãi",
             "patterns": [
+                "Ai là người quản lý phòng Phòng trọ rộng rãi?",
                 "Cho tôi thông tin chủ phòng Phòng trọ rộng rãi",
-                "Thông tin liên lạc chủ phòng Phòng trọ rộng rãi",
-                "Ai là người quản lý phòng Phòng trọ rộng rãi?"
+                "Thông tin liên lạc chủ phòng Phòng trọ rộng rãi"
             ],
             "responses": [
                 "Phòng Phòng trọ rộng rãi do ông System làm đại diện. Số điện thoại: 0909678901"
@@ -886,9 +910,9 @@
         {
             "tag": "Thông tin chủ phòng Phòng tiện nghi cơ bản",
             "patterns": [
-                "Thông tin liên lạc chủ phòng Phòng tiện nghi cơ bản",
+                "Ai là người quản lý phòng Phòng tiện nghi cơ bản?",
                 "Cho tôi thông tin chủ phòng Phòng tiện nghi cơ bản",
-                "Ai là người quản lý phòng Phòng tiện nghi cơ bản?"
+                "Thông tin liên lạc chủ phòng Phòng tiện nghi cơ bản"
             ],
             "responses": [
                 "Phòng Phòng tiện nghi cơ bản do ông System làm đại diện. Số điện thoại: 0909890123"
@@ -898,8 +922,8 @@
             "tag": "Thông tin chủ phòng Phòng mới tiện nghi",
             "patterns": [
                 "Ai là người quản lý phòng Phòng mới tiện nghi?",
-                "Thông tin liên lạc chủ phòng Phòng mới tiện nghi",
-                "Cho tôi thông tin chủ phòng Phòng mới tiện nghi"
+                "Cho tôi thông tin chủ phòng Phòng mới tiện nghi",
+                "Thông tin liên lạc chủ phòng Phòng mới tiện nghi"
             ],
             "responses": [
                 "Phòng Phòng mới tiện nghi do ông System làm đại diện. Số điện thoại: 0909901234"
@@ -908,20 +932,21 @@
         {
             "tag": "Thông tin chủ phòng test",
             "patterns": [
-                "Cho tôi thông tin chủ phòng test",
+                "Thông tin liên lạc chủ phòng test",
                 "Ai là người quản lý phòng test?",
-                "Thông tin liên lạc chủ phòng test"
+                "Cho tôi thông tin chủ phòng test"
             ],
             "responses": [
-                "Phòng test do ông null làm đại diện. Số điện thoại: 20"
+                "Phòng test do ông null làm đại diện. Số điện thoại: 20",
+                "Phòng test do ông Việt Huỳnh làm đại diện. Số điện thoại: 0999999999"
             ]
         },
         {
             "tag": "Tiện ích phòng Studio mới xây",
             "patterns": [
                 "Tiện ích phòng Studio mới xây",
-                "Phòng Studio mới xây có tiện ích gì?",
-                "Cho tôi thông tin tiện ích của phòng Studio mới xây"
+                "Cho tôi thông tin tiện ích của phòng Studio mới xây",
+                "Phòng Studio mới xây có tiện ích gì?"
             ],
             "responses": [
                 "Phòng Studio mới xây có các tiện ích: {Bed=true, Sofa=true, Table=true, Chair=true}, nội thất: {WiFi=true, AirConditioner=true, Heater=true, WashingMachine=false}"
@@ -953,21 +978,21 @@
             "tag": "Tiện ích phòng Phòng trọ tiện nghi",
             "patterns": [
                 "Phòng Phòng trọ tiện nghi có tiện ích gì?",
-                "Cho tôi thông tin tiện ích của phòng Phòng trọ tiện nghi",
-                "Tiện ích phòng Phòng trọ tiện nghi"
+                "Tiện ích phòng Phòng trọ tiện nghi",
+                "Cho tôi thông tin tiện ích của phòng Phòng trọ tiện nghi"
             ],
             "responses": [
-                "Phòng Phòng trọ tiện nghi có các tiện ích: {Bed=true, Sofa=false, Table=true, Chair=true}, nội thất: {WiFi=true, AirConditioner=false, Heater=false, WashingMachine=false}",
                 "Phòng Phòng trọ tiện nghi có các tiện ích: {Bed=true, Sofa=true, Table=true, Chair=true}, nội thất: {WiFi=true, AirConditioner=true, Heater=false, WashingMachine=true}",
+                "Phòng Phòng trọ tiện nghi có các tiện ích: {Bed=true, Sofa=false, Table=true, Chair=true}, nội thất: {WiFi=true, AirConditioner=false, Heater=false, WashingMachine=false}",
                 "Phòng Phòng trọ tiện nghi có các tiện ích: {Bed=true, Sofa=true, Table=true, Chair=false}, nội thất: {WiFi=true, AirConditioner=true, Heater=true, WashingMachine=true}"
             ]
         },
         {
             "tag": "Tiện ích phòng Căn hộ dịch vụ sang trọng",
             "patterns": [
-                "Cho tôi thông tin tiện ích của phòng Căn hộ dịch vụ sang trọng",
                 "Phòng Căn hộ dịch vụ sang trọng có tiện ích gì?",
-                "Tiện ích phòng Căn hộ dịch vụ sang trọng"
+                "Tiện ích phòng Căn hộ dịch vụ sang trọng",
+                "Cho tôi thông tin tiện ích của phòng Căn hộ dịch vụ sang trọng"
             ],
             "responses": [
                 "Phòng Căn hộ dịch vụ sang trọng có các tiện ích: {Bed=true, Sofa=true, Table=true, Chair=true}, nội thất: {WiFi=true, AirConditioner=true, Heater=true, WashingMachine=true}"
@@ -977,20 +1002,20 @@
             "tag": "Tiện ích phòng Phòng trọ sinh viên",
             "patterns": [
                 "Cho tôi thông tin tiện ích của phòng Phòng trọ sinh viên",
-                "Tiện ích phòng Phòng trọ sinh viên",
-                "Phòng Phòng trọ sinh viên có tiện ích gì?"
+                "Phòng Phòng trọ sinh viên có tiện ích gì?",
+                "Tiện ích phòng Phòng trọ sinh viên"
             ],
             "responses": [
-                "Phòng Phòng trọ sinh viên có các tiện ích: {Bed=true, Sofa=true, Table=true, Chair=true}, nội thất: {WiFi=true, AirConditioner=true, Heater=true, WashingMachine=true}",
-                "Phòng Phòng trọ sinh viên có các tiện ích: {Bed=true, Sofa=false, Table=true, Chair=true}, nội thất: {WiFi=true, AirConditioner=true, Heater=false, WashingMachine=false}"
+                "Phòng Phòng trọ sinh viên có các tiện ích: {Bed=true, Sofa=false, Table=true, Chair=true}, nội thất: {WiFi=true, AirConditioner=true, Heater=false, WashingMachine=false}",
+                "Phòng Phòng trọ sinh viên có các tiện ích: {Bed=true, Sofa=true, Table=true, Chair=true}, nội thất: {WiFi=true, AirConditioner=true, Heater=true, WashingMachine=true}"
             ]
         },
         {
             "tag": "Tiện ích phòng Căn hộ mini hiện đại",
             "patterns": [
-                "Tiện ích phòng Căn hộ mini hiện đại",
+                "Phòng Căn hộ mini hiện đại có tiện ích gì?",
                 "Cho tôi thông tin tiện ích của phòng Căn hộ mini hiện đại",
-                "Phòng Căn hộ mini hiện đại có tiện ích gì?"
+                "Tiện ích phòng Căn hộ mini hiện đại"
             ],
             "responses": [
                 "Phòng Căn hộ mini hiện đại có các tiện ích: {Bed=true, Sofa=true, Table=true, Chair=true}, nội thất: {WiFi=true, AirConditioner=true, Heater=false, WashingMachine=true}"
@@ -1010,8 +1035,8 @@
         {
             "tag": "Tiện ích phòng Phòng tiện nghi gần chợ",
             "patterns": [
-                "Phòng Phòng tiện nghi gần chợ có tiện ích gì?",
                 "Tiện ích phòng Phòng tiện nghi gần chợ",
+                "Phòng Phòng tiện nghi gần chợ có tiện ích gì?",
                 "Cho tôi thông tin tiện ích của phòng Phòng tiện nghi gần chợ"
             ],
             "responses": [
@@ -1021,8 +1046,8 @@
         {
             "tag": "Tiện ích phòng Phòng trọ hiện đại",
             "patterns": [
-                "Phòng Phòng trọ hiện đại có tiện ích gì?",
                 "Cho tôi thông tin tiện ích của phòng Phòng trọ hiện đại",
+                "Phòng Phòng trọ hiện đại có tiện ích gì?",
                 "Tiện ích phòng Phòng trọ hiện đại"
             ],
             "responses": [
@@ -1043,9 +1068,9 @@
         {
             "tag": "Tiện ích phòng Phòng trọ tiện nghi hiện đại",
             "patterns": [
-                "Cho tôi thông tin tiện ích của phòng Phòng trọ tiện nghi hiện đại",
                 "Tiện ích phòng Phòng trọ tiện nghi hiện đại",
-                "Phòng Phòng trọ tiện nghi hiện đại có tiện ích gì?"
+                "Phòng Phòng trọ tiện nghi hiện đại có tiện ích gì?",
+                "Cho tôi thông tin tiện ích của phòng Phòng trọ tiện nghi hiện đại"
             ],
             "responses": [
                 "Phòng Phòng trọ tiện nghi hiện đại có các tiện ích: {Bed=true, Sofa=true, Table=true, Chair=true}, nội thất: {WiFi=true, AirConditioner=true, Heater=true, WashingMachine=false}"
@@ -1054,8 +1079,8 @@
         {
             "tag": "Tiện ích phòng Phòng trọ rộng rãi",
             "patterns": [
-                "Cho tôi thông tin tiện ích của phòng Phòng trọ rộng rãi",
                 "Phòng Phòng trọ rộng rãi có tiện ích gì?",
+                "Cho tôi thông tin tiện ích của phòng Phòng trọ rộng rãi",
                 "Tiện ích phòng Phòng trọ rộng rãi"
             ],
             "responses": [
@@ -1066,8 +1091,8 @@
             "tag": "Tiện ích phòng Phòng tiện nghi cơ bản",
             "patterns": [
                 "Cho tôi thông tin tiện ích của phòng Phòng tiện nghi cơ bản",
-                "Phòng Phòng tiện nghi cơ bản có tiện ích gì?",
-                "Tiện ích phòng Phòng tiện nghi cơ bản"
+                "Tiện ích phòng Phòng tiện nghi cơ bản",
+                "Phòng Phòng tiện nghi cơ bản có tiện ích gì?"
             ],
             "responses": [
                 "Phòng Phòng tiện nghi cơ bản có các tiện ích: {Bed=true, Sofa=false, Table=true, Chair=true}, nội thất: {WiFi=true, AirConditioner=false, Heater=false, WashingMachine=false}"
@@ -1076,9 +1101,9 @@
         {
             "tag": "Tiện ích phòng Phòng mới tiện nghi",
             "patterns": [
-                "Phòng Phòng mới tiện nghi có tiện ích gì?",
+                "Tiện ích phòng Phòng mới tiện nghi",
                 "Cho tôi thông tin tiện ích của phòng Phòng mới tiện nghi",
-                "Tiện ích phòng Phòng mới tiện nghi"
+                "Phòng Phòng mới tiện nghi có tiện ích gì?"
             ],
             "responses": [
                 "Phòng Phòng mới tiện nghi có các tiện ích: {Bed=true, Sofa=true, Table=true, Chair=true}, nội thất: {WiFi=true, AirConditioner=true, Heater=true, WashingMachine=true}"
@@ -1087,32 +1112,33 @@
         {
             "tag": "Tiện ích phòng test",
             "patterns": [
-                "Phòng test có tiện ích gì?",
                 "Cho tôi thông tin tiện ích của phòng test",
+                "Phòng test có tiện ích gì?",
                 "Tiện ích phòng test"
             ],
             "responses": [
+                "Phòng test có các tiện ích: {}, nội thất: {}",
                 "Phòng test có các tiện ích: {test=true}, nội thất: {test=true}"
             ]
         },
         {
             "tag": "Chi tiết phí phòng Studio mới xây",
             "patterns": [
-                "Cho tôi thông tin các loại phí của phòng Studio mới xây",
+                "Thông tin giá cả phòng Studio mới xây",
                 "Phòng Studio mới xây có các loại phí gì?",
-                "Thông tin giá cả phòng Studio mới xây"
+                "Cho tôi thông tin các loại phí của phòng Studio mới xây"
             ],
             "responses": [
-                "Phòng Studio mới xây có các loại phí như sau: Phí nhà hàng tháng: 1500 VNĐ, Phí nước sinh hoạt: 40 VNĐ, Phí điện: 60 VNĐ, Các phí bổ sung: Loại phí: Parking, Số tiền: 150 VNĐ; Loại phí: PetDeposit, Số tiền: 300 VNĐ",
-                "Phòng Studio mới xây có các loại phí như sau: Phí nhà hàng tháng: 1500.00 VNĐ, Phí nước sinh hoạt: 40.00 VNĐ, Phí điện: 60.00 VNĐ, Các phí bổ sung: Loại phí: Parking, Số tiền: 150.00 VNĐ; Loại phí: PetDeposit, Số tiền: 300.00 VNĐ"
+                "Phòng Studio mới xây có các loại phí như sau: Phí nhà hàng tháng: 1500.00 VNĐ, Phí nước sinh hoạt: 40.00 VNĐ, Phí điện: 60.00 VNĐ, Các phí bổ sung: Loại phí: Parking, Số tiền: 150.00 VNĐ; Loại phí: PetDeposit, Số tiền: 300.00 VNĐ",
+                "Phòng Studio mới xây có các loại phí như sau: Phí nhà hàng tháng: 1500 VNĐ, Phí nước sinh hoạt: 40 VNĐ, Phí điện: 60 VNĐ, Các phí bổ sung: Loại phí: Parking, Số tiền: 150 VNĐ; Loại phí: PetDeposit, Số tiền: 300 VNĐ"
             ]
         },
         {
             "tag": "Chi tiết phí phòng Phòng studio tiện nghi",
             "patterns": [
-                "Thông tin giá cả phòng Phòng studio tiện nghi",
                 "Phòng Phòng studio tiện nghi có các loại phí gì?",
-                "Cho tôi thông tin các loại phí của phòng Phòng studio tiện nghi"
+                "Cho tôi thông tin các loại phí của phòng Phòng studio tiện nghi",
+                "Thông tin giá cả phòng Phòng studio tiện nghi"
             ],
             "responses": [
                 "Phòng Phòng studio tiện nghi có các loại phí như sau: Phí nhà hàng tháng: 1200.00 VNĐ, Phí nước sinh hoạt: 30.00 VNĐ, Phí điện: 50.00 VNĐ, Các phí bổ sung: Loại phí: Parking, Số tiền: 100.00 VNĐ; Loại phí: CleaningFee, Số tiền: 50.00 VNĐ"
@@ -1121,9 +1147,9 @@
         {
             "tag": "Chi tiết phí phòng Căn hộ mini view đẹp",
             "patterns": [
-                "Cho tôi thông tin các loại phí của phòng Căn hộ mini view đẹp",
                 "Phòng Căn hộ mini view đẹp có các loại phí gì?",
-                "Thông tin giá cả phòng Căn hộ mini view đẹp"
+                "Thông tin giá cả phòng Căn hộ mini view đẹp",
+                "Cho tôi thông tin các loại phí của phòng Căn hộ mini view đẹp"
             ],
             "responses": [
                 "Phòng Căn hộ mini view đẹp có các loại phí như sau: Phí nhà hàng tháng: 1400.00 VNĐ, Phí nước sinh hoạt: 35.00 VNĐ, Phí điện: 55.00 VNĐ, Các phí bổ sung: Loại phí: Parking, Số tiền: 120.00 VNĐ; Loại phí: MaintenanceFee, Số tiền: 80.00 VNĐ"
@@ -1132,14 +1158,14 @@
         {
             "tag": "Chi tiết phí phòng Phòng trọ tiện nghi",
             "patterns": [
-                "Thông tin giá cả phòng Phòng trọ tiện nghi",
+                "Phòng Phòng trọ tiện nghi có các loại phí gì?",
                 "Cho tôi thông tin các loại phí của phòng Phòng trọ tiện nghi",
-                "Phòng Phòng trọ tiện nghi có các loại phí gì?"
+                "Thông tin giá cả phòng Phòng trọ tiện nghi"
             ],
             "responses": [
                 "Phòng Phòng trọ tiện nghi có các loại phí như sau: Phí nhà hàng tháng: 600.00 VNĐ, Phí nước sinh hoạt: 20.00 VNĐ, Phí điện: 40.00 VNĐ, Các phí bổ sung: Loại phí: Parking, Số tiền: 50.00 VNĐ; Loại phí: CleaningFee, Số tiền: 15.00 VNĐ",
-                "Phòng Phòng trọ tiện nghi có các loại phí như sau: Phí nhà hàng tháng: 1100.00 VNĐ, Phí nước sinh hoạt: 22.00 VNĐ, Phí điện: 38.00 VNĐ, Các phí bổ sung: Loại phí: ServiceFee, Số tiền: 20.00 VNĐ",
-                "Phòng Phòng trọ tiện nghi có các loại phí như sau: Phí nhà hàng tháng: 1000.00 VNĐ, Phí nước sinh hoạt: 20.00 VNĐ, Phí điện: 40.00 VNĐ, Các phí bổ sung: Loại phí: Parking, Số tiền: 60.00 VNĐ; Loại phí: CleaningFee, Số tiền: 30.00 VNĐ"
+                "Phòng Phòng trọ tiện nghi có các loại phí như sau: Phí nhà hàng tháng: 1000.00 VNĐ, Phí nước sinh hoạt: 20.00 VNĐ, Phí điện: 40.00 VNĐ, Các phí bổ sung: Loại phí: Parking, Số tiền: 60.00 VNĐ; Loại phí: CleaningFee, Số tiền: 30.00 VNĐ",
+                "Phòng Phòng trọ tiện nghi có các loại phí như sau: Phí nhà hàng tháng: 1100.00 VNĐ, Phí nước sinh hoạt: 22.00 VNĐ, Phí điện: 38.00 VNĐ, Các phí bổ sung: Loại phí: ServiceFee, Số tiền: 20.00 VNĐ"
             ]
         },
         {
@@ -1156,8 +1182,8 @@
         {
             "tag": "Chi tiết phí phòng Phòng trọ sinh viên",
             "patterns": [
-                "Thông tin giá cả phòng Phòng trọ sinh viên",
                 "Cho tôi thông tin các loại phí của phòng Phòng trọ sinh viên",
+                "Thông tin giá cả phòng Phòng trọ sinh viên",
                 "Phòng Phòng trọ sinh viên có các loại phí gì?"
             ],
             "responses": [
@@ -1169,8 +1195,8 @@
             "tag": "Chi tiết phí phòng Căn hộ mini hiện đại",
             "patterns": [
                 "Phòng Căn hộ mini hiện đại có các loại phí gì?",
-                "Thông tin giá cả phòng Căn hộ mini hiện đại",
-                "Cho tôi thông tin các loại phí của phòng Căn hộ mini hiện đại"
+                "Cho tôi thông tin các loại phí của phòng Căn hộ mini hiện đại",
+                "Thông tin giá cả phòng Căn hộ mini hiện đại"
             ],
             "responses": [
                 "Phòng Căn hộ mini hiện đại có các loại phí như sau: Phí nhà hàng tháng: 1300.00 VNĐ, Phí nước sinh hoạt: 40.00 VNĐ, Phí điện: 60.00 VNĐ, Các phí bổ sung: Loại phí: Parking, Số tiền: 100.00 VNĐ; Loại phí: CleaningFee, Số tiền: 50.00 VNĐ"
@@ -1179,9 +1205,9 @@
         {
             "tag": "Chi tiết phí phòng Phòng trọ sinh viên tiện lợi",
             "patterns": [
-                "Cho tôi thông tin các loại phí của phòng Phòng trọ sinh viên tiện lợi",
+                "Phòng Phòng trọ sinh viên tiện lợi có các loại phí gì?",
                 "Thông tin giá cả phòng Phòng trọ sinh viên tiện lợi",
-                "Phòng Phòng trọ sinh viên tiện lợi có các loại phí gì?"
+                "Cho tôi thông tin các loại phí của phòng Phòng trọ sinh viên tiện lợi"
             ],
             "responses": [
                 "Phòng Phòng trọ sinh viên tiện lợi có các loại phí như sau: Phí nhà hàng tháng: 750.00 VNĐ, Phí nước sinh hoạt: 20.00 VNĐ, Phí điện: 35.00 VNĐ, Các phí bổ sung: Loại phí: Parking, Số tiền: 45.00 VNĐ; Loại phí: ServiceFee, Số tiền: 20.00 VNĐ"
@@ -1190,9 +1216,9 @@
         {
             "tag": "Chi tiết phí phòng Phòng tiện nghi gần chợ",
             "patterns": [
-                "Phòng Phòng tiện nghi gần chợ có các loại phí gì?",
                 "Thông tin giá cả phòng Phòng tiện nghi gần chợ",
-                "Cho tôi thông tin các loại phí của phòng Phòng tiện nghi gần chợ"
+                "Cho tôi thông tin các loại phí của phòng Phòng tiện nghi gần chợ",
+                "Phòng Phòng tiện nghi gần chợ có các loại phí gì?"
             ],
             "responses": [
                 "Phòng Phòng tiện nghi gần chợ có các loại phí như sau: Phí nhà hàng tháng: 700.00 VNĐ, Phí nước sinh hoạt: 18.00 VNĐ, Phí điện: 30.00 VNĐ, Các phí bổ sung: Loại phí: ServiceFee, Số tiền: 15.00 VNĐ"
@@ -1202,8 +1228,8 @@
             "tag": "Chi tiết phí phòng Phòng trọ hiện đại",
             "patterns": [
                 "Thông tin giá cả phòng Phòng trọ hiện đại",
-                "Phòng Phòng trọ hiện đại có các loại phí gì?",
-                "Cho tôi thông tin các loại phí của phòng Phòng trọ hiện đại"
+                "Cho tôi thông tin các loại phí của phòng Phòng trọ hiện đại",
+                "Phòng Phòng trọ hiện đại có các loại phí gì?"
             ],
             "responses": [
                 "Phòng Phòng trọ hiện đại có các loại phí như sau: Phí nhà hàng tháng: 800.00 VNĐ, Phí nước sinh hoạt: 25.00 VNĐ, Phí điện: 40.00 VNĐ, Các phí bổ sung: Loại phí: Parking, Số tiền: 50.00 VNĐ; Loại phí: ServiceFee, Số tiền: 25.00 VNĐ"
@@ -1212,8 +1238,8 @@
         {
             "tag": "Chi tiết phí phòng Phòng trọ sinh viên tiện nghi",
             "patterns": [
-                "Cho tôi thông tin các loại phí của phòng Phòng trọ sinh viên tiện nghi",
                 "Phòng Phòng trọ sinh viên tiện nghi có các loại phí gì?",
+                "Cho tôi thông tin các loại phí của phòng Phòng trọ sinh viên tiện nghi",
                 "Thông tin giá cả phòng Phòng trọ sinh viên tiện nghi"
             ],
             "responses": [
@@ -1223,8 +1249,8 @@
         {
             "tag": "Chi tiết phí phòng Phòng trọ tiện nghi hiện đại",
             "patterns": [
-                "Cho tôi thông tin các loại phí của phòng Phòng trọ tiện nghi hiện đại",
                 "Phòng Phòng trọ tiện nghi hiện đại có các loại phí gì?",
+                "Cho tôi thông tin các loại phí của phòng Phòng trọ tiện nghi hiện đại",
                 "Thông tin giá cả phòng Phòng trọ tiện nghi hiện đại"
             ],
             "responses": [
@@ -1234,9 +1260,9 @@
         {
             "tag": "Chi tiết phí phòng Phòng trọ rộng rãi",
             "patterns": [
-                "Thông tin giá cả phòng Phòng trọ rộng rãi",
                 "Cho tôi thông tin các loại phí của phòng Phòng trọ rộng rãi",
-                "Phòng Phòng trọ rộng rãi có các loại phí gì?"
+                "Phòng Phòng trọ rộng rãi có các loại phí gì?",
+                "Thông tin giá cả phòng Phòng trọ rộng rãi"
             ],
             "responses": [
                 "Phòng Phòng trọ rộng rãi có các loại phí như sau: Phí nhà hàng tháng: 790.00 VNĐ, Phí nước sinh hoạt: 25.00 VNĐ, Phí điện: 45.00 VNĐ, Các phí bổ sung: Loại phí: Parking, Số tiền: 50.00 VNĐ"
@@ -1245,9 +1271,9 @@
         {
             "tag": "Chi tiết phí phòng Phòng tiện nghi cơ bản",
             "patterns": [
+                "Thông tin giá cả phòng Phòng tiện nghi cơ bản",
                 "Phòng Phòng tiện nghi cơ bản có các loại phí gì?",
-                "Cho tôi thông tin các loại phí của phòng Phòng tiện nghi cơ bản",
-                "Thông tin giá cả phòng Phòng tiện nghi cơ bản"
+                "Cho tôi thông tin các loại phí của phòng Phòng tiện nghi cơ bản"
             ],
             "responses": [
                 "Phòng Phòng tiện nghi cơ bản có các loại phí như sau: Phí nhà hàng tháng: 690.00 VNĐ, Phí nước sinh hoạt: 18.00 VNĐ, Phí điện: 30.00 VNĐ, Các phí bổ sung: Loại phí: ServiceFee, Số tiền: 15.00 VNĐ"
@@ -1256,9 +1282,9 @@
         {
             "tag": "Chi tiết phí phòng Phòng mới tiện nghi",
             "patterns": [
-                "Thông tin giá cả phòng Phòng mới tiện nghi",
                 "Phòng Phòng mới tiện nghi có các loại phí gì?",
-                "Cho tôi thông tin các loại phí của phòng Phòng mới tiện nghi"
+                "Cho tôi thông tin các loại phí của phòng Phòng mới tiện nghi",
+                "Thông tin giá cả phòng Phòng mới tiện nghi"
             ],
             "responses": [
                 "Phòng Phòng mới tiện nghi có các loại phí như sau: Phí nhà hàng tháng: 800.00 VNĐ, Phí nước sinh hoạt: 23.00 VNĐ, Phí điện: 40.00 VNĐ, Các phí bổ sung: Loại phí: Parking, Số tiền: 50.00 VNĐ"
@@ -1268,11 +1294,12 @@
             "tag": "Chi tiết phí phòng test",
             "patterns": [
                 "Cho tôi thông tin các loại phí của phòng test",
-                "Phòng test có các loại phí gì?",
-                "Thông tin giá cả phòng test"
+                "Thông tin giá cả phòng test",
+                "Phòng test có các loại phí gì?"
             ],
             "responses": [
-                "Phòng test có các loại phí như sau: Phí nhà hàng tháng: 20 VNĐ, Phí nước sinh hoạt: 20 VNĐ, Phí điện: 20 VNĐ, Các phí bổ sung: Loại phí: test, Số tiền: 20 VNĐ"
+                "Phòng test có các loại phí như sau: Phí nhà hàng tháng: 20 VNĐ, Phí nước sinh hoạt: 20 VNĐ, Phí điện: 20 VNĐ, Các phí bổ sung: Loại phí: test, Số tiền: 20 VNĐ",
+                "Phòng test có các loại phí như sau: Phí nhà hàng tháng: 4 VNĐ, Phí nước sinh hoạt: 4 VNĐ, Phí điện: 4 VNĐ, Các phí bổ sung: Loại phí: test, Số tiền: 3 VNĐ"
             ]
         },
         {
@@ -1348,7 +1375,8 @@
                 "Căn hộ Sunrise City còn phòng không?"
             ],
             "responses": [
-                "Căn hộ Sunrise City - Trạng thái: Đang chờ duyệt"
+                "Căn hộ Sunrise City - Trạng thái: Đang chờ duyệt",
+                "Căn hộ Sunrise City - Trạng thái: PENDING"
             ]
         },
         {
@@ -1366,8 +1394,8 @@
             "tag": "Thông tin chủ phòng Căn hộ Sunrise City",
             "patterns": [
                 "Ai là người quản lý phòng Căn hộ Sunrise City?",
-                "Cho tôi thông tin chủ phòng Căn hộ Sunrise City",
-                "Thông tin liên lạc chủ phòng Căn hộ Sunrise City"
+                "Thông tin liên lạc chủ phòng Căn hộ Sunrise City",
+                "Cho tôi thông tin chủ phòng Căn hộ Sunrise City"
             ],
             "responses": [
                 "Phòng Căn hộ Sunrise City do ông Việt Huỳnh làm đại diện. Số điện thoại: Nguyễn Văn A - 0123456789"
@@ -1376,8 +1404,8 @@
         {
             "tag": "Tiện ích phòng Căn hộ Sunrise City",
             "patterns": [
-                "Cho tôi thông tin tiện ích của phòng Căn hộ Sunrise City",
                 "Tiện ích phòng Căn hộ Sunrise City",
+                "Cho tôi thông tin tiện ích của phòng Căn hộ Sunrise City",
                 "Phòng Căn hộ Sunrise City có tiện ích gì?"
             ],
             "responses": [
@@ -1387,9 +1415,9 @@
         {
             "tag": "Chi tiết phí phòng Căn hộ Sunrise City",
             "patterns": [
+                "Phòng Căn hộ Sunrise City có các loại phí gì?",
                 "Cho tôi thông tin các loại phí của phòng Căn hộ Sunrise City",
-                "Thông tin giá cả phòng Căn hộ Sunrise City",
-                "Phòng Căn hộ Sunrise City có các loại phí gì?"
+                "Thông tin giá cả phòng Căn hộ Sunrise City"
             ],
             "responses": [
                 "Phòng Căn hộ Sunrise City có các loại phí như sau: Phí nhà hàng tháng: 15000000 VNĐ, Phí nước sinh hoạt: 20000 VNĐ, Phí điện: 3000 VNĐ, Các phí bổ sung: Loại phí: Phí quản lý, Số tiền: 100000 VNĐ; Loại phí: Phí vệ sinh, Số tiền: 50000 VNĐ"
@@ -1411,6 +1439,209 @@
             ],
             "responses": [
                 "Xin chào!  (Hello!)\n"
+            ]
+        },
+        {
+            "tag": "Địa chỉ phòng tesst",
+            "patterns": [
+                "tesst địa chỉ ở đâu?",
+                "Tôi muốn biết địa chỉ phòng tesst",
+                "Địa chỉ của phòng tesst là gì?"
+            ],
+            "responses": [
+                "tesst - Địa chỉ: tesst"
+            ]
+        },
+        {
+            "tag": "Trạng thái phòng tesst",
+            "patterns": [
+                "tesst còn phòng không?",
+                "Phòng tesst có còn trống không?",
+                "Trạng thái của phòng tesst"
+            ],
+            "responses": [
+                "tesst - Trạng thái: pending"
+            ]
+        },
+        {
+            "tag": "Diện tích phòng tesst",
+            "patterns": [
+                "Kích thước phòng tesst",
+                "tesst diện tích như thế nào?",
+                "Diện tích phòng tesst là bao nhiêu?"
+            ],
+            "responses": [
+                "tesst - có chiều dài: 2.0m, chiều rộng: 3.0m, diện tích tổng: 2.0m²"
+            ]
+        },
+        {
+            "tag": "Thông tin chủ phòng tesst",
+            "patterns": [
+                "Ai là người quản lý phòng tesst?",
+                "Cho tôi thông tin chủ phòng tesst",
+                "Thông tin liên lạc chủ phòng tesst"
+            ],
+            "responses": [
+                "Phòng tesst do ông Admin Huynh làm đại diện. Số điện thoại: 0329615399"
+            ]
+        },
+        {
+            "tag": "Tiện ích phòng tesst",
+            "patterns": [
+                "Cho tôi thông tin tiện ích của phòng tesst",
+                "Tiện ích phòng tesst",
+                "Phòng tesst có tiện ích gì?"
+            ],
+            "responses": [
+                "Phòng tesst có các tiện ích: {a=true}, nội thất: {b=true}"
+            ]
+        },
+        {
+            "tag": "Chi tiết phí phòng tesst",
+            "patterns": [
+                "Phòng tesst có các loại phí gì?",
+                "Cho tôi thông tin các loại phí của phòng tesst",
+                "Thông tin giá cả phòng tesst"
+            ],
+            "responses": [
+                "Phòng tesst có các loại phí như sau: Phí nhà hàng tháng: 231 VNĐ, Phí nước sinh hoạt: 123 VNĐ, Phí điện: 123 VNĐ, Các phí bổ sung: Loại phí: a, Số tiền: 12 VNĐ"
+            ]
+        },
+        {
+            "tag": "chưa xác định",
+            "patterns": [
+                "hôm nay bạn như thế nào"
+            ],
+            "responses": [
+                "Tôi ổn, cảm ơn bạn đã hỏi! Là một mô hình ngôn ngữ lớn, tôi không trải nghiệm cảm xúc theo cùng một cách con người làm, nhưng tôi đang hoạt động tốt và sẵn sàng trả lời câu hỏi của bạn.  Bạn hôm nay thế nào?\n"
+            ]
+        },
+        {
+            "tag": "chưa xác định",
+            "patterns": [
+                "liệt kê danh sách phòng trọ"
+            ],
+            "responses": [
+                "Tôi cần thêm thông tin để liệt kê danh sách phòng trọ.  Vui lòng cho tôi biết:\n\n* **Vị trí:**  Bạn muốn tìm phòng trọ ở đâu? (Ví dụ: Quận 1, Hồ Chí Minh; Hà Nội;  khu vực gần trường Đại học X...)\n* **Giá:** Bạn có ngân sách bao nhiêu cho mỗi tháng?\n* **Loại phòng:** Bạn muốn phòng riêng, phòng ở ghép, hay căn hộ?\n* **Tiện nghi:** Bạn cần những tiện nghi gì? (Ví dụ: máy lạnh, máy giặt, wifi, bếp...)\n* **Diện tích:** Bạn cần phòng có diện tích bao nhiêu mét vuông?\n\n\nCung cấp càng nhiều thông tin càng tốt để tôi có thể giúp bạn tìm kiếm hiệu quả hơn.\n"
+            ]
+        },
+        {
+            "tag": "chưa xác định",
+            "patterns": [
+                "viết cho tôi bản hợp đồng thuê trọ với phòng trên"
+            ],
+            "responses": [
+                "HỢP ĐỒNG THUÊ NHÀ TRỌ\n\nNgày ..... tháng ..... năm .....\n\n**Căn cứ:** Luật Dân sự năm 2015;\n\n**Chúng tôi gồm:**\n\n* **BÊN CHO THUÊ (BCT):** Ông/Bà ..............................................................................\nĐịa chỉ thường trú: .............................................................................................\nSố chứng minh thư/Căn cước công dân: ...................................................................\nĐiện thoại: .......................................................................................................\n\n* **BÊN THUÊ (BT):** Ông/Bà ..............................................................................\nĐịa chỉ thường trú: .............................................................................................\nSố chứng minh thư/Căn cước công dân: ...................................................................\nĐiện thoại: .......................................................................................................\n\nHai bên cùng thỏa thuận ký kết hợp đồng thuê nhà trọ với các điều khoản như sau:\n\n**Điều 1: Đối tượng thuê**\n\nBên cho thuê cho bên thuê thuê nhà trọ tại địa chỉ: ............................................................................................. gồm:  (mô tả chi tiết phòng, ví dụ: Phòng số ..., tầng ..., diện tích ..., bao gồm các thiết bị: giường, tủ, máy lạnh, quạt,...)\n\n**Điều 2: Thời hạn thuê**\n\nThời hạn thuê nhà trọ là ....... (ghi bằng chữ) tháng, kể từ ngày ....... tháng ....... năm ....... đến hết ngày ....... tháng ....... năm .......\n\n**Điều 3: Tiền thuê nhà**\n\n* Tiền thuê nhà là: ................. (ghi bằng chữ) đồng/tháng.\n* Hình thức thanh toán: ..................................................................................... (Ví dụ: Thanh toán hàng tháng, trước hoặc sau mỗi tháng)\n* Thời điểm thanh toán: Vào ngày ....... hàng tháng.\n* Bên thuê sẽ thanh toán tiền nhà cho bên cho thuê tại: ....................................................\n\n**Điều 4: Tiền đặt cọc**\n\nBên thuê đặt cọc cho bên cho thuê số tiền: ................. (ghi bằng chữ) đồng. Số tiền này sẽ được bên cho thuê hoàn trả lại cho bên thuê sau khi hết hạn hợp đồng và bên thuê đã bàn giao lại nhà trọ trong tình trạng nguyên vẹn (trừ trường hợp hư hỏng do lỗi của bên thuê).\n\n**Điều 5: Trách nhiệm của bên cho thuê**\n\n* Bên cho thuê có trách nhiệm đảm bảo nhà trọ cho bên thuê được sử dụng trong suốt thời gian thuê.\n* Bên cho thuê có trách nhiệm sửa chữa các hư hỏng do lỗi của bên cho thuê gây ra.\n* Bên cho thuê chịu trách nhiệm cung cấp các dịch vụ tiện ích đã được thỏa thuận (nếu có, liệt kê cụ thể).\n\n**Điều 6: Trách nhiệm của bên thuê**\n\n* Bên thuê có trách nhiệm thanh toán tiền thuê nhà đúng thời hạn.\n* Bên thuê có trách nhiệm giữ gìn nhà trọ sạch sẽ, không gây mất vệ sinh môi trường.\n* Bên thuê có trách nhiệm sử dụng nhà trọ đúng mục đích, không được sử dụng vào mục đích trái pháp luật.\n* Bên thuê có trách nhiệm báo cho bên cho thuê biết khi có sự cố xảy ra.\n* Bên thuê có trách nhiệm tự chịu trách nhiệm về tài sản cá nhân trong phòng.\n* Bên thuê phải chịu trách nhiệm về các hư hỏng do mình gây ra (trừ trường hợp hư hỏng thông thường do sử dụng).\n\n**Điều 7: Giải quyết tranh chấp**\n\nCác tranh chấp phát sinh từ hợp đồng này sẽ được giải quyết bằng thương lượng. Nếu thương lượng không thành, hai bên sẽ giải quyết theo quy định của pháp luật.\n\n**Điều 8: Điều khoản khác**\n\n(Ghi thêm các điều khoản khác nếu cần thiết, ví dụ: thời gian báo trước khi chấm dứt hợp đồng, quy định về điện, nước,...)\n\n**Điều 9: Chữ ký của hai bên**\n\n\nBÊN CHO THUÊ                                                                   BÊN THUÊ\n\n(Ký và ghi rõ họ tên)                                                              (Ký và ghi rõ họ tên)\n\n\n.....................................................................                              .....................................................................\n\n\n**Lưu ý:**  Đây chỉ là bản hợp đồng mẫu, các bên cần bổ sung hoặc điều chỉnh các điều khoản cho phù hợp với thực tế.  Nên tham khảo ý kiến luật sư để đảm bảo tính pháp lý của hợp đồng.\n"
+            ]
+        },
+        {
+            "tag": "Địa chỉ phòng Quang Cáo",
+            "patterns": [
+                "Tôi muốn biết địa chỉ phòng Quang Cáo",
+                "Quang Cáo địa chỉ ở đâu?",
+                "Địa chỉ của phòng Quang Cáo là gì?"
+            ],
+            "responses": [
+                "Quang Cáo - Địa chỉ: Quang Cáo"
+            ]
+        },
+        {
+            "tag": "Địa chỉ phòng 9",
+            "patterns": [
+                "9 địa chỉ ở đâu?",
+                "Tôi muốn biết địa chỉ phòng 9",
+                "Địa chỉ của phòng 9 là gì?"
+            ],
+            "responses": [
+                "9 - Địa chỉ: quoc"
+            ]
+        },
+        {
+            "tag": "Trạng thái phòng Quang Cáo",
+            "patterns": [
+                "Phòng Quang Cáo có còn trống không?",
+                "Trạng thái của phòng Quang Cáo",
+                "Quang Cáo còn phòng không?"
+            ],
+            "responses": [
+                "Quang Cáo - Trạng thái: ACTIVE"
+            ]
+        },
+        {
+            "tag": "Trạng thái phòng 9",
+            "patterns": [
+                "Trạng thái của phòng 9",
+                "Phòng 9 có còn trống không?",
+                "9 còn phòng không?"
+            ],
+            "responses": [
+                "9 - Trạng thái: ACTIVE"
+            ]
+        },
+        {
+            "tag": "Diện tích phòng Quang Cáo",
+            "patterns": [
+                "Diện tích phòng Quang Cáo là bao nhiêu?",
+                "Kích thước phòng Quang Cáo",
+                "Quang Cáo diện tích như thế nào?"
+            ],
+            "responses": [
+                "Quang Cáo - có chiều dài: 12.0m, chiều rộng: 12.0m, diện tích tổng: 144.0m²"
+            ]
+        },
+        {
+            "tag": "Diện tích phòng 9",
+            "patterns": [
+                "Diện tích phòng 9 là bao nhiêu?",
+                "Kích thước phòng 9",
+                "9 diện tích như thế nào?"
+            ],
+            "responses": [
+                "9 - có chiều dài: 1.0m, chiều rộng: 2.0m, diện tích tổng: 2.0m²"
+            ]
+        },
+        {
+            "tag": "Tiện ích phòng Quang Cáo",
+            "patterns": [
+                "Cho tôi thông tin tiện ích của phòng Quang Cáo",
+                "Tiện ích phòng Quang Cáo",
+                "Phòng Quang Cáo có tiện ích gì?"
+            ],
+            "responses": [
+                "Phòng Quang Cáo có các tiện ích: {}, nội thất: {}"
+            ]
+        },
+        {
+            "tag": "Tiện ích phòng 9",
+            "patterns": [
+                "Cho tôi thông tin tiện ích của phòng 9",
+                "Tiện ích phòng 9",
+                "Phòng 9 có tiện ích gì?"
+            ],
+            "responses": [
+                "Phòng 9 có các tiện ích: {}, nội thất: {}"
+            ]
+        },
+        {
+            "tag": "Chi tiết phí phòng Quang Cáo",
+            "patterns": [
+                "Cho tôi thông tin các loại phí của phòng Quang Cáo",
+                "Thông tin giá cả phòng Quang Cáo",
+                "Phòng Quang Cáo có các loại phí gì?"
+            ],
+            "responses": [
+                "Phòng Quang Cáo có các loại phí như sau: Phí nhà hàng tháng: 12312 VNĐ, Phí nước sinh hoạt: 123123 VNĐ, Phí điện: 12313 VNĐ, Các phí bổ sung: "
+            ]
+        },
+        {
+            "tag": "Chi tiết phí phòng 9",
+            "patterns": [
+                "Phòng 9 có các loại phí gì?",
+                "Thông tin giá cả phòng 9",
+                "Cho tôi thông tin các loại phí của phòng 9"
+            ],
+            "responses": [
+                "Phòng 9 có các loại phí như sau: Phí nhà hàng tháng: 10000 VNĐ, Phí nước sinh hoạt: null VNĐ, Phí điện: null VNĐ, Các phí bổ sung: "
             ]
         }
     ]

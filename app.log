@@ -833,3 +833,73 @@
 2024-12-02 20:43:39,867 - INFO - 172.22.0.1 - - [02/Dec/2024 20:43:39] "POST /chat HTTP/1.1" 200 -
 2024-12-02 20:46:41,790 - INFO - 172.22.0.1 - - [02/Dec/2024 20:46:41] "OPTIONS /chat HTTP/1.1" 200 -
 2024-12-02 20:46:43,233 - INFO - 172.22.0.1 - - [02/Dec/2024 20:46:43] "POST /chat HTTP/1.1" 200 -
+2024-12-03 18:16:10,470 - INFO - Đang chạy auto_update_intents...
+2024-12-03 18:16:10,471 - INFO - Đang chạy training...
+2024-12-03 18:16:10,483 - INFO - Starting update intents process...
+2024-12-03 18:16:10,499 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.56:5000
+2024-12-03 18:16:10,499 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 18:16:11,918 - INFO - Starting training process...
+2024-12-03 18:16:18,565 - INFO - update process complete.
+2024-12-03 18:16:36,933 - INFO - Training process complete.
+2024-12-03 18:18:47,289 - INFO - Đang chạy auto_update_intents...
+2024-12-03 18:18:47,289 - INFO - Đang chạy training...
+2024-12-03 18:18:47,301 - INFO - Starting update intents process...
+2024-12-03 18:18:47,307 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.56:5000
+2024-12-03 18:18:47,307 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 18:18:48,497 - INFO - Starting training process...
+2024-12-03 18:18:59,962 - INFO - update process complete.
+2024-12-03 18:19:15,013 - INFO - Training process complete.
+2024-12-03 18:21:01,474 - INFO - 127.0.0.1 - - [03/Dec/2024 18:21:01] "OPTIONS /chat HTTP/1.1" 200 -
+2024-12-03 18:21:01,726 - INFO - 127.0.0.1 - - [03/Dec/2024 18:21:01] "POST /chat HTTP/1.1" 200 -
+2024-12-03 18:21:53,626 - INFO - 127.0.0.1 - - [03/Dec/2024 18:21:53] "OPTIONS /chat HTTP/1.1" 200 -
+2024-12-03 18:21:55,984 - INFO - 127.0.0.1 - - [03/Dec/2024 18:21:55] "POST /chat HTTP/1.1" 200 -
+2024-12-03 18:22:20,865 - INFO - 127.0.0.1 - - [03/Dec/2024 18:22:20] "OPTIONS /chat HTTP/1.1" 200 -
+2024-12-03 18:22:23,892 - INFO - 127.0.0.1 - - [03/Dec/2024 18:22:23] "POST /chat HTTP/1.1" 200 -
+2024-12-03 18:22:47,222 - INFO - 127.0.0.1 - - [03/Dec/2024 18:22:47] "OPTIONS /chat HTTP/1.1" 200 -
+2024-12-03 18:22:47,532 - INFO - 127.0.0.1 - - [03/Dec/2024 18:22:47] "POST /chat HTTP/1.1" 200 -
+2024-12-03 18:23:13,159 - INFO - 127.0.0.1 - - [03/Dec/2024 18:23:13] "OPTIONS /chat HTTP/1.1" 200 -
+2024-12-03 18:23:13,465 - INFO - 127.0.0.1 - - [03/Dec/2024 18:23:13] "POST /chat HTTP/1.1" 200 -
+2024-12-03 18:23:26,022 - INFO - 127.0.0.1 - - [03/Dec/2024 18:23:26] "OPTIONS /chat HTTP/1.1" 200 -
+2024-12-03 18:23:26,333 - INFO - 127.0.0.1 - - [03/Dec/2024 18:23:26] "POST /chat HTTP/1.1" 200 -
+2024-12-03 18:24:07,007 - INFO - 127.0.0.1 - - [03/Dec/2024 18:24:07] "OPTIONS /chat HTTP/1.1" 200 -
+2024-12-03 18:24:07,324 - INFO - 127.0.0.1 - - [03/Dec/2024 18:24:07] "POST /chat HTTP/1.1" 200 -
+2024-12-03 18:24:28,403 - INFO - 127.0.0.1 - - [03/Dec/2024 18:24:28] "OPTIONS /chat HTTP/1.1" 200 -
+2024-12-03 18:24:35,898 - INFO - 127.0.0.1 - - [03/Dec/2024 18:24:35] "POST /chat HTTP/1.1" 200 -
+2024-12-03 18:25:22,605 - INFO - 127.0.0.1 - - [03/Dec/2024 18:25:22] "OPTIONS /chat HTTP/1.1" 200 -
+2024-12-03 18:25:22,912 - INFO - 127.0.0.1 - - [03/Dec/2024 18:25:22] "POST /chat HTTP/1.1" 200 -
+2024-12-03 18:34:30,667 - INFO - 127.0.0.1 - - [03/Dec/2024 18:34:30] "OPTIONS /chat HTTP/1.1" 200 -
+2024-12-03 18:34:30,910 - INFO - 127.0.0.1 - - [03/Dec/2024 18:34:30] "POST /chat HTTP/1.1" 200 -
+2024-12-03 19:17:19,965 - INFO - Đang chạy auto_update_intents...
+2024-12-03 19:17:19,969 - INFO - Starting update intents process...
+2024-12-03 19:17:48,587 - INFO - update process complete.
+2024-12-03 19:19:15,015 - INFO - Đang chạy training...
+2024-12-03 19:19:15,015 - INFO - Starting training process...
+2024-12-03 19:19:40,254 - INFO - Training process complete.
+2024-12-13 19:30:44,480 - INFO - Đang chạy auto_update_intents...
+2024-12-13 19:30:44,481 - INFO - Đang chạy training...
+2024-12-13 19:30:44,494 - INFO - Starting update intents process...
+2024-12-13 19:30:44,511 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+2024-12-13 19:30:44,511 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-13 19:30:46,035 - INFO - Starting training process...
+2024-12-13 19:31:18,883 - INFO - Training process complete.
+2024-12-13 19:31:19,021 - INFO - update process complete.
+2024-12-13 19:44:51,052 - INFO - Đang chạy auto_update_intents...
+2024-12-13 19:44:51,054 - INFO - Đang chạy training...
+2024-12-13 19:44:51,068 - INFO - Starting update intents process...
+2024-12-13 19:44:51,073 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+2024-12-13 19:44:51,073 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-13 19:44:51,946 - INFO - Starting training process...
+2024-12-13 19:45:23,152 - INFO - Training process complete.
+2024-12-13 19:45:26,771 - INFO - update process complete.
