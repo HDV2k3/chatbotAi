@@ -85,16 +85,21 @@ jobs:
     needs: build
     runs-on: self-hosted
     steps:
+      - name: Stop and remove old container
+        run: docker rm -f ai-service || true
+      - name: Remove old images
+        run: docker rmi -f devhuynh2003/ai-service:latest || true
       - name: Pull image from Docker Hub
         run: docker pull devhuynh2003/ai-service:latest
-
-      - name: Delete old container
-        run: docker rm -f ai-service || true
-
       - name: Run docker container
         run: |
           docker run -d \
             -p 5000:5000 \
             --env-file /home/ubuntu/.env \
+            --health-cmd="curl -f http://localhost:5000/health || exit 1" \
+            --health-interval=30s \
+            --health-timeout=5s \
+            --health-retries=3 \
+            --health-start-period=10s \
             --name ai-service \
             devhuynh2003/ai-service:latest
